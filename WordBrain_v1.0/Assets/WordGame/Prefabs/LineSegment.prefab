@@ -10,7 +10,6 @@ GameObject:
   - component: {fileID: 22481428}
   - component: {fileID: 22298186}
   - component: {fileID: 11485298}
-  - component: {fileID: 114869594486329614}
   m_Layer: 5
   m_Name: LineSegment
   m_TagString: Untagged
@@ -96,14 +95,3 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 161472}
   m_IsPrefabParent: 1
---- !u!114 &114869594486329614
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 161472}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 419a2ba502da1a442bba3a71d5774232, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 

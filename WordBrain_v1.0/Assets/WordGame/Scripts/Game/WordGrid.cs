@@ -189,8 +189,6 @@ public class WordGrid : MonoBehaviour
 	/// </summary>
 	public void FoundWord(string word, List<LetterTile> letterTiles, Tween.OnTweenFinished onTweenFinished)
 	{
-        GameManager.Instance.PlayWinSound();
-
 		if (!allGridTiles.ContainsKey(word))
 		{
 			Debug.LogErrorFormat("There is no word \"{0}\" on the WordGrid. Hidding the GameTiles.", word);

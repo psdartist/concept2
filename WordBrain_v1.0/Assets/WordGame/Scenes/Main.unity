@@ -4412,8 +4412,6 @@ GameObject:
   - component: {fileID: 1518547155}
   - component: {fileID: 1518547154}
   - component: {fileID: 1518547153}
-  - component: {fileID: 1518547156}
-  - component: {fileID: 1518547157}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -4937,437 +4935,421 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: 1b5306e8bf35f6a46a1326007d6ec597, type: 3}
     levelInfos:
     - words:
-      - SEED
-      - TREE
-      - GROW
-      - LEAF
+      - POM
+      - COPAC
+      - PIN
+      - "FRUNZ\u0102"
     - words:
-      - HOPE
-      - LOVE
-      - FEAR
-      - SICK
+      - LUP
+      - URS
+      - VULPE
+      - PORCI
     - words:
-      - SODA
-      - MILK
-      - JUICE
-      - TEA
+      - SUC
+      - LAPTE
+      - CEAI
+      - "AP\u0102"
     - words:
-      - FAST
-      - SLOW
-      - RUN
-      - DRIVE
+      - CAP
+      - "M\xC2N\u0102"
+      - PICIOR
+      - "G\xC2T"
     - words:
-      - FISH
-      - RIVER
-      - SEA
-      - CRAB
+      - "V\xC2NT"
+      - PLOAIE
+      - GER
+      - CALD
     - words:
-      - LADY
-      - GIRL
-      - DAUGHTER
+      - BISHON
+      - MOPS
+      - PUG
+      - LUP
     - words:
-      - UMBRELLA
-      - RAIN
-      - SNOW
+      - ACTOR
+      - "SCEN\u0102"
+      - "PIES\u0102"
     - words:
-      - PILOT
-      - SKY
-      - AIR
-      - PLANE
+      - "PLAJ\u0102"
+      - NISIP
+      - SOARE
     - words:
-      - PEACH
-      - ORANGE
-      - MELON
+      - NEGRU
+      - "RO\u0218U"
+      - VIOLET
     - words:
-      - PINK
-      - YELLOW
-      - PURPLE
+      - "TEAM\u0102"
+      - "FRIC\u0102"
+      - "SPAIM\u0102"
     - words:
-      - APPLE
-      - JAM
-      - HONEY
-      - PIE
+      - "M\u0102R"
+      - "PL\u0102CINT\u0102"
+      - "ZAH\u0102R"
     - words:
-      - NICE
-      - COOL
-      - KIND
-      - GOOD
+      - GUNOI
+      - "DE\u015EEU"
+      - POLUAT
     - words:
-      - NOSE
-      - FACE
-      - LIPS
-      - EYES
+      - "ARM\u0102"
+      - CRIMINAL
+      - FURT
     - words:
-      - DINNER
-      - SNACK
-      - LUNCH
+      - "CIN\u0102"
+      - "PR\xC2NZ"
+      - DESERT
     - words:
-      - DRAW
-      - SING
-      - EXERCISE
+      - DESEN
+      - "C\xC2NTAT"
+      - SUNET
     - words:
-      - CAT
-      - RABBIT
-      - PENGUIN
+      - "CUP\u0102"
+      - SPORT
+      - CAMPION
     - words:
-      - PIANO
-      - VIOLIN
-      - FLUTE
+      - PIAN
+      - "VIOAR\u0102"
+      - "HARP\u0102"
     - words:
-      - FRIEND
-      - SCHOOL
-      - PLAY
+      - COLEG
+      - AMIC
+      - PRIETEN
     - words:
-      - STAR
-      - MOON
-      - SUN
-      - EARTH
+      - STEA
+      - PLANETA
+      - SOARE
     - words:
-      - PENCIL
-      - ERASER
-      - BOOK
+      - PIX
+      - STILOU
+      - CREION
   - name: Briceag
     description: 4X4
     icon: {fileID: 21300000, guid: 137b3881d908edb4dafa647ef41b222a, type: 3}
     levelInfos:
     - words:
-      - TREE
-      - WOOD
-      - LEAF
-      - BARK
+      - "UR\xC2T"
+      - VERDE
+      - YOGA
+      - "PIC\u0102"
     - words:
-      - SUMMER
-      - SUN
-      - HOT
-      - CAMP
+      - "MIZ\u0102"
+      - SULF
+      - "VAR\u0102"
+      - SUMO
     - words:
-      - CORN
-      - BANANA
-      - SQUASH
+      - TEST
+      - TAIFUN
+      - "C\u0102RU\u021A\u0102"
     - words:
-      - SANTA
-      - GIFT
-      - CHIMNEY
+      - "RULET\u0102"
+      - "SOB\u0102"
+      - "SCHEM\u0102"
     - words:
-      - RAIN
-      - UMBRELLA
-      - COAT
+      - CHEFIR
+      - PLIC
+      - MELC
     - words:
-      - MELON
-      - ORANGE
-      - PEACH
+      - MUGURI
+      - "FA\u021A\u0102"
+      - SUFLEU
     - words:
-      - CANDY
-      - JELLY
-      - COOKIE
+      - SPANAC
+      - ADIO
+      - PESMET
     - words:
-      - WARM
-      - SPRING
-      - SPROUT
+      - GENIST
+      - "\u0218NI\u021AEL"
+      - SCHELE
     - words:
-      - SUNNY
-      - FINE
-      - WEATHER
+      - "LITER\u0102"
+      - PION
+      - LICHID
     - words:
-      - FISH
-      - POLE
-      - BOAT
-      - BAIT
+      - "C\xC2MP"
+      - CUBA
+      - "VAM\u0102"
+      - "ROU\u0102"
     - words:
-      - SMELL
-      - LISTEN
-      - TASTE
+      - "IEDER\u0102"
+      - IRONIE
+      - "TEM\u0102"
     - words:
-      - DRAW
-      - DOODLE
-      - CRAYON
+      - IMPULS
+      - DANS
+      - "IGIEN\u0102"
     - words:
-      - SHOULDER
-      - HAND
-      - KNEE
+      - "COLIB\u0102"
+      - HOCHEI
+      - TOBE
     - words:
-      - COFFEE
-      - WATER
-      - JUICE
+      - "C\u0102RUNT"
+      - TURBAN
+      - DUEL
     - words:
-      - PUPPY
-      - RABBIT
-      - CHICK
+      - GROPAR
+      - TIGAIE
+      - "GUM\u0102"
     - words:
-      - RED
-      - APPLE
-      - ROSE
-      - LIPS
+      - CALM
+      - "LAN\u021A"
+      - CLOR
+      - CIRC
     - words:
-      - BACK
-      - NECK
-      - LEG
-      - BELLY
+      - "ART\u0102"
+      - BRIE
+      - TRIB
+      - FRAC
     - words:
-      - TRAIN
-      - TAXI
-      - BIKE
-      - CAR
+      - SCAI
+      - VERB
+      - "O\u021AET"
+      - ACRU
     - words:
-      - WATER
-      - SEED
-      - COMPOST
+      - GIGANT
+      - GLUTEN
+      - "FOSIL\u0102"
     - words:
-      - BLACK
-      - WHITE
-      - PURPLE
+      - "DIVOR\u021A"
+      - DONARE
+      - CERCEL
     - words:
-      - HIKE
-      - MOUNTAIN
-      - PEAK
+      - APARAT
+      - DIALOG
+      - PAIE
     - words:
-      - PLAY
-      - GAME
-      - LOVE
-      - WORD
+      - TRON
+      - TOFU
+      - ROMB
+      - OREZ
     - words:
-      - MAGIC
-      - SPELL
-      - WIZARD
+      - COLEGI
+      - DIAVOL
+      - "DR\u0102GU\u021A"
     - words:
-      - DONKEY
-      - CAMEL
-      - HORSE
+      - "CA\u0218MIR"
+      - "CAPEL\u0102"
+      - HIMERA
     - words:
-      - TEENAGER
-      - KID
-      - ADULT
+      - "\xCENCHIS"
+      - COPT
+      - "TREFL\u0102"
     - words:
-      - WHITE
-      - COTTON
-      - CLOUD
+      - BUDISM
+      - OCUPAT
+      - "ROL\u0102"
     - words:
-      - OYSTER
-      - CLAM
-      - MUSSEL
+      - BARMAN
+      - "RUS\u0102"
+      - VISCOL
     - words:
-      - HOUR
-      - MINUTE
-      - SECOND
+      - BROKER
+      - "\u0218AN\u021A"
+      - "M\u0102TU\u0218\u0102"
     - words:
-      - DINNER
-      - SNACK
-      - LUNCH
+      - RUCOLA
+      - APETIT
+      - SOSIRE
     - words:
-      - TREE
-      - FOREST
-      - JUNGLE
+      - FUNDAL
+      - BARBAR
+      - "MAR\u0218"
     - words:
-      - HAMSTER
-      - WHEEL
-      - SEED
+      - "APLIC\u0102"
+      - PERETE
+      - NUGA
     - words:
       - STUDENT
-      - LEARN
-      - TEST
+      - WASABI
+      - "OI\u021A\u0102"
     - words:
-      - ROBBER
-      - ARREST
-      - JAIL
+      - PUSTIU
+      - PAZNIC
+      - "FAZ\u0102"
     - words:
-      - SHARK
-      - DOLPHIN
-      - SEAL
+      - "PLU\u0218"
+      - AMIRAL
+      - SIMBOL
     - words:
-      - LAUNDRY
-      - WASH
-      - CLEAN
+      - GONG
+      - TARHON
+      - "BRIO\u0218E"
     - words:
-      - MONKEY
-      - TAIL
-      - BANANA
+      - TEATRU
+      - TRAPEZ
+      - "SER\u0102"
     - words:
-      - VACATION
-      - FESTIVAL
+      - FURNICAR
+      - ACCIDENT
     - words:
-      - CANVAS
-      - PAINT
-      - EASEL
+      - VEDERE
+      - BURETE
+      - RUFE
     - words:
-      - MUSEUM
-      - ART
-      - PICTURE
+      - AMIDON
+      - "\u0218TEVIE"
+      - SALT
     - words:
-      - COCONUT
-      - KIWI
-      - MANGO
+      - "PIATR\u0102"
+      - ECOU
+      - SULTAN
   - name: Camion
     description: 4X4
     icon: {fileID: 21300000, guid: 282c31072e50b2641a0bc70455a317fe, type: 3}
     levelInfos:
     - words:
-      - HOBBY
-      - PASTIME
-      - GAME
+      - LASOU
+      - PREMIU
+      - GAZON
     - words:
-      - POST
-      - LETTER
-      - PARCEL
+      - "LENE\u0218"
+      - BABUIN
+      - LEMUR
     - words:
-      - POPCORN
-      - MOVIE
-      - FILM
+      - NIVEL
+      - BURSUC
+      - "VIA\u021A\u0102"
     - words:
-      - MERMAID
-      - SING
-      - VOICE
+      - LINIE
+      - FICAT
+      - COVRIG
     - words:
-      - DAWN
-      - NIGHT
-      - SUNRISE
+      - "BUCL\u0102"
+      - BALANS
+      - NOROC
     - words:
-      - POND
-      - SPAWN
-      - TADPOLE
+      - "RE\u021AEA"
+      - "BANAN\u0102"
+      - VECHI
     - words:
-      - BUD
-      - BLOSSOM
-      - FLOWER
+      - MANGO
+      - CASTOR
+      - "HART\u0102"
     - words:
-      - BASKETBALL
-      - SOCCER
+      - "ARHITECTUR\u0102"
+      - BALET
     - words:
-      - ROCK
-      - SCISSOR
-      - PAPER
+      - JELEU
+      - "BR\xC2NZ\u0102"
+      - "MASC\u0102"
     - words:
-      - LUNCH
-      - SALAD
-      - YOGURT
+      - MASAJ
+      - "CELUL\u0102"
+      - BEZEA
     - words:
-      - FACE
-      - LIPS
-      - NOSE
-      - EYES
+      - ZIAR
+      - PION
+      - "POZ\u0102"
     - words:
-      - BAKERY
-      - SMELL
-      - FLOUR
+      - MESAJ
+      - "B\u0102RBIE"
+      - "PLAS\u0102"
     - words:
-      - TALK
-      - SING
-      - PLAY
-      - READ
+      - "SECET\u0102"
+      - "ARC\u0102"
+      - VULTUR
     - words:
-      - BIG
-      - SMALL
-      - HUGE
-      - SIZE
+      - "P\u0102M\xC2NT"
+      - ASTM
+      - "EGRET\u0102"
     - words:
-      - JAZZ
-      - ROCK
-      - SOUL
-      - PUNK
+      - "PUDR\u0102"
+      - "MUZIC\u0102"
+      - PREOT
     - words:
-      - SOIL
-      - SEED
-      - POT
-      - PLANT
+      - "BALT\u0102"
+      - "\xCENGUST"
+      - TRAGE
     - words:
-      - DESK
-      - BOOK
-      - STUDY
-      - PEN
+      - "POMP\u0102"
+      - NECTAR
+      - PIURE
     - words:
-      - COLD
-      - SICK
-      - FEVER
-      - FLU
+      - "CURS\u0102"
+      - NOAPTE
+      - RADAR
     - words:
-      - WALK
-      - RUN
-      - JOG
-      - SPRINT
+      - FURIE
+      - ZGOMOT
+      - BOGAT
     - words:
-      - DAY
-      - WEEK
-      - MONTH
-      - YEAR
+      - ROBOT
+      - VAMPIR
+      - RODEO
     - words:
-      - HAND
-      - SHOULDER
-      - FOOT
+      - ROMAN
+      - STEJAR
+      - "PIST\u0102"
     - words:
-      - SUN
-      - HOT
-      - BEACH
-      - SWEAT
+      - SALAM
+      - "ORBIT\u0102"
+      - SOMON
     - words:
-      - THUMB
-      - INDEX
-      - FINGER
+      - "SAUN\u0102"
+      - CUPTOR
+      - "UMBR\u0102"
     - words:
-      - JELLY
-      - CANDY
-      - COOKIE
+      - "\u0218AMAN"
+      - VOPSEA
+      - "COAJ\u0102"
     - words:
-      - ORANGE
-      - MELON
-      - PEACH
+      - "\u0218ERIF"
+      - PICTOR
+      - "BOAL\u0102"
     - words:
-      - READING
-      - BOOK
-      - STORY
+      - TRANDAFIR
+      - "COAC\u0102ZE"
     - words:
-      - NAILS
-      - HAMMER
-      - PLANK
+      - SILOZ
+      - "PALET\u0102"
+      - FELIE
     - words:
-      - BACON
-      - CHEESE
-      - SLICE
+      - "M\xC2ZG\u0102"
+      - "PANIC\u0102"
+      - "FANT\u0102"
     - words:
-      - AMBITION
-      - WISH
-      - HOPE
+      - LABRADOR
+      - "CAP\u0102"
+      - "B\xC2T\u0102"
     - words:
-      - LISTEN
-      - SMELL
-      - TASTE
+      - SCURGERE
+      - LEGIONAR
     - words:
-      - PARTY
-      - CAKE
-      - PRESENT
+      - "CEA\u0218C\u0102"
+      - "GR\xC2U"
+      - MACARA
     - words:
-      - OVAL
-      - CIRCLE
-      - SQUARE
+      - MOALE
+      - HACKER
+      - SUNET
     - words:
-      - RAIN
-      - SHOWER
-      - SPLASH
+      - "VRAJ\u0102"
+      - "GR\u0102TAR"
+      - SPORT
     - words:
-      - GARDEN
-      - FOREST
-      - TREE
+      - SPRAY
+      - "GHEA\u021A\u0102"
+      - SEPIE
     - words:
-      - CHICK
-      - PUPPY
-      - RABBIT
+      - "BARZ\u0102"
+      - ILUZIE
+      - STRES
     - words:
-      - SANTA
-      - CHIMNEY
-      - GIFT
+      - "PLAJ\u0102"
+      - "INSUL\u0102"
+      - VORBI
     - words:
-      - BOXING
-      - GLOVE
-      - PUNCH
+      - "\xCENALT"
+      - BORCAN
+      - TANGO
     - words:
-      - COOKIE
-      - BISCUIT
-      - TEA
+      - "BAND\u0102"
+      - "MEDUZ\u0102"
+      - "\u021AINT\u0102"
     - words:
-      - RABBIT
-      - HARE
-      - CLOVER
+      - "DIN\u021AI"
+      - KARATE
+      - "LIMB\u0102"
     - words:
-      - MANNERS
-      - ETIQUETTE
+      - OBIECTIV
+      - "SPIRIDU\u0218"
   - name: Chimia
     description: 5X5
     icon: {fileID: 21300000, guid: 42388f6f8953e244d922e28def16dbec, type: 3}
@@ -5693,166 +5675,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!82 &1518547156
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1518547152}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 403b6a5e8829100498ef8d5b1d37ce90, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 0.7
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
---- !u!82 &1518547157
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1518547152}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 0
-  m_Volume: 0.7
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
 --- !u!1 &1543941243
 GameObject:
   m_ObjectHideFlags: 0
@@ -7941,7 +7763,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 3298.768, y: -85.15}
+  m_AnchoredPosition: {x: 3298.7686, y: -85.15}
   m_SizeDelta: {x: 170, y: 170.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040616746
