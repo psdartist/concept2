@@ -5355,110 +5355,101 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: 42388f6f8953e244d922e28def16dbec, type: 3}
     levelInfos:
     - words:
-      - HAPPY
-      - SMILE
-      - LUCKY
-      - BLISS
-      - MERRY
+      - MIRIAPOD
+      - "\u021AUR\u021AURI"
+      - LEMN
+      - ABIS
     - words:
-      - BUDDY
-      - AMIGO
-      - FRIEND
-      - COMPANION
+      - PERSONAJ
+      - MAXILAR
+      - GRADE
+      - "DELT\u0102"
     - words:
-      - PICNIC
-      - BASKET
-      - BLANKET
-      - CHEESE
+      - 'LABRADOR  '
+      - INFINIT
+      - "\xCENCET"
+      - "LENE\u0218"
     - words:
-      - BEE
-      - MOSQUITO
-      - NEEDLE
-      - SCORPION
+      - "CENU\u0218\u0102"
+      - EXPLOZIBIL
     - words:
-      - HALLOWEEN
-      - WITCH
+      - SCURGERE
+      - MAXILAR
       - SPOOKY
       - TREAT
     - words:
-      - FAMILY
-      - HUSBAND
-      - CHILDREN
-      - WIFE
+      - LEGIONAR
+      - CANOTAJ
+      - MIROS
+      - "\u0218ARPE"
     - words:
-      - CIRCLE
-      - SQUARE
-      - SHAPE
-      - TRIANGLE
+      - OBIECTIV
+      - RINICHI
+      - "PRIZ\u0102"
+      - "S\u0102PUN"
     - words:
-      - OUTDOOR
-      - FREEZE
-      - TAG
-      - HOPSCOTCH
+      - "SPIRIDU\u0218"
+      - CAVALER
+      - SUNET
+      - MOALE
     - words:
-      - PIRATE
-      - CAPTAIN
-      - FLAG
-      - TREASURE
+      - MINCINOS
+      - FELINAR
+      - "STIV\u0102"
+      - SEPIE
     - words:
-      - STREET
-      - AVENUE
-      - ALLEY
-      - SIDEWALK
+      - "ARHIV\u0102"
+      - "DESC\u0102RCARE"
     - words:
-      - UNIVERSE
-      - SPACE
-      - GALAXY
-      - COSMOS
+      - "AMPRENT\u0102"
+      - LASAGNA
+      - BOTEZ
+      - CIDRU
     - words:
-      - BASS
-      - GUITAR
-      - CELLO
-      - HARP
-      - VIOLIN
+      - SALVAMAR
+      - LANSARE
+      - "CLEM\u0102"
+      - CANOE
     - words:
-      - MOUSE
-      - CHEESE
-      - TRAP
-      - HOLE
-      - SQUARE
+      - MAGICIAN
+      - "LAVAND\u0102"
+      - COLAJ
+      - BETON
     - words:
-      - SAFARI
-      - ELEPHANT
-      - CHEETAH
-      - LION
+      - "MAR\u021AIPAN"
+      - "BALAN\u021A\u0102"
+      - CRUCE
+      - "CURB\u0102"
     - words:
-      - KNIGHT
-      - SWORD
-      - CASTLE
-      - PRINCESS
+      - "MEDICIN\u0102"
+      - "PAJI\u0218TE"
+      - BARAJ
+      - DECOR
     - words:
-      - BAKING
-      - FLOUR
-      - SUGAR
-      - OVEN
-      - BREAD
+      - METRONOM
+      - "\u0218EDIN\u021A\u0102"
+      - GRADE
+      - "DELT\u0102"
     - words:
-      - MILITARY
-      - SOLIDER
-      - ARMY
-      - MARINE
+      - ALPINIST
+      - MEMORIE
+      - "DIOD\u0102"
+      - FORAJ
     - words:
-      - NAP
-      - SLEEP
-      - SNOOZE
-      - DOZE
-      - SLUMBER
+      - "NUC\u0218OAR\u0102"
+      - "C\u0102LUG\u0102R"
+      - "DRON\u0102"
+      - ECLER
     - words:
-      - MELODY
-      - RHYTHM
-      - LYRICS
-      - HARMONY
+      - "PIERSIC\u0102"
+      - "COMAND\u0102"
+      - "\u021AIPAR"
+      - "ALBU\u0218"
     - words:
-      - DINOSAUR
-      - FOSSIL
-      - EXTINCT
-      - BONE
+      - PERISCOP
+      - "BUFNI\u021A\u0102"
+      - "SMAL\u021A"
+      - ELICE
   dailyPuzzles:
   - words:
     - "CATEDRAL\u0102"
@@ -7763,7 +7754,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 3298.7686, y: -85.15}
+  m_AnchoredPosition: {x: 3298.769, y: -85.15}
   m_SizeDelta: {x: 170, y: 170.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040616746
