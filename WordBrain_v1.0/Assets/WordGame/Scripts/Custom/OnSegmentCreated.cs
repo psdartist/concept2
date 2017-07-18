@@ -4,6 +4,6 @@ public class OnSegmentCreated : MonoBehaviour
 {
     void OnEnable()
     {
-        GameManager.Instance.PlayLetterSound();
+        SoundManager.Instance().PlayLetterSound();
     }
 }

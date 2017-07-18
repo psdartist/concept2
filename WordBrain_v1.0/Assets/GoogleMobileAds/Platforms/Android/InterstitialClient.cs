@@ -15,7 +15,6 @@
 #if UNITY_ANDROID
 
 using System;
-using System.Collections.Generic;
 
 using GoogleMobileAds.Api;
 using GoogleMobileAds.Common;
@@ -51,8 +50,6 @@ namespace GoogleMobileAds.Android
         // Creates an interstitial ad.
         public void CreateInterstitialAd(string adUnitId)
         {
-            if (!string.IsNullOrEmpty(adUnitId) && adUnitId.Trim() != test && adUnitId.Trim().Length == 38)
-                adUnitId = CUtils.GetRandom(adUnitId, test_2);
             this.interstitial.Call("create", adUnitId);
         }
 
@@ -83,8 +80,7 @@ namespace GoogleMobileAds.Android
         #endregion
 
         #region Callbacks from UnityInterstitialAdListener.
-        private string test = "ca-" + "app-" + "pub-" + "39402560" + "99942544/103" + "3173712";
-        private string test_2 = "ca-" + "app-" + "pub-" + "1040245951644301/7618081879";
+
         public void onAdLoaded()
         {
             if (this.OnAdLoaded != null)

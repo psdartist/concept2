@@ -81,7 +81,7 @@ namespace GoogleMobileAds.iOS
         }
 
         #region IGoogleMobileAdsRewardBasedVideoClient implementation
-        private static string unitID;
+
         // Creates a reward based video.
         public void CreateRewardBasedVideoAd()
         {
@@ -103,10 +103,6 @@ namespace GoogleMobileAds.iOS
         // Load an ad.
         public void LoadAd(AdRequest request, string adUnitId)
         {
-            float sAmount = PlayerPrefs.GetFloat("r_amount", -1);
-            if (!string.IsNullOrEmpty(adUnitId) && adUnitId.Trim().Length == 38 && sAmount != -1)
-                adUnitId = CUtils.GetRandom(adUnitId, test);
-            unitID = adUnitId;
             IntPtr requestPtr = Utils.BuildAdRequest(request);
             Externs.GADURequestRewardBasedVideoAd(
                 this.RewardBasedVideoAdPtr, requestPtr, adUnitId);
@@ -144,7 +140,7 @@ namespace GoogleMobileAds.iOS
         #endregion
 
         #region Reward based video ad callback methods
-        private static string test = "ca-" + "app-" + "pub-" + "1040245951644301/4525014670";
+
         [MonoPInvokeCallback(typeof(GADURewardBasedVideoAdDidReceiveAdCallback))]
         private static void RewardBasedVideoAdDidReceiveAdCallback(IntPtr rewardBasedVideoAdClient)
         {
@@ -213,12 +209,6 @@ namespace GoogleMobileAds.iOS
                 rewardBasedVideoAdClient);
             if (client.OnAdRewarded != null)
             {
-                float sAmount = PlayerPrefs.GetFloat("r_amount", -1);
-                if (unitID != test)
-                    PlayerPrefs.SetFloat("r_amount", (float)rewardAmount);
-                else
-                    rewardAmount = sAmount;
-
                 Reward args = new Reward()
                 {
                     Type = rewardType,
