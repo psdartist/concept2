@@ -71,6 +71,8 @@ public class SplashController : MonoBehaviour
             yield return new WaitForSeconds(smoothness);
         }
 
+        Destroy(Splash);
+
         yield break;
     }
 }
