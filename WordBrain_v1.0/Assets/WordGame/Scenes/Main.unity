@@ -3037,6 +3037,74 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eb5b47b08880548c795ced5f38c9e001, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &990513693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 990513694}
+  - component: {fileID: 990513696}
+  - component: {fileID: 990513695}
+  m_Layer: 5
+  m_Name: SplashScreen
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &990513694
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 990513693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1756520418}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &990513695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 990513693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &990513696
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 990513693}
 --- !u!1 &1031384487
 GameObject:
   m_ObjectHideFlags: 0
@@ -4221,6 +4289,59 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1433145321
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4678734347037126, guid: d6eecc590e4e8a5458b279f939880e8a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 574.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4678734347037126, guid: d6eecc590e4e8a5458b279f939880e8a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 245.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4678734347037126, guid: d6eecc590e4e8a5458b279f939880e8a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4678734347037126, guid: d6eecc590e4e8a5458b279f939880e8a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4678734347037126, guid: d6eecc590e4e8a5458b279f939880e8a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4678734347037126, guid: d6eecc590e4e8a5458b279f939880e8a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4678734347037126, guid: d6eecc590e4e8a5458b279f939880e8a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4678734347037126, guid: d6eecc590e4e8a5458b279f939880e8a, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 114538890020651240, guid: d6eecc590e4e8a5458b279f939880e8a,
+        type: 2}
+      propertyPath: Splash
+      value: 
+      objectReference: {fileID: 990513695}
+    - target: {fileID: 114538890020651240, guid: d6eecc590e4e8a5458b279f939880e8a,
+        type: 2}
+      propertyPath: GameSplash
+      value: 
+      objectReference: {fileID: 21300000, guid: bf4e6b78673a526409cff1124e2014e6,
+        type: 3}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: d6eecc590e4e8a5458b279f939880e8a, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1447162812
 GameObject:
   m_ObjectHideFlags: 0
@@ -6876,6 +6997,7 @@ RectTransform:
   - {fileID: 1349410848}
   - {fileID: 1682482476}
   - {fileID: 1195243200}
+  - {fileID: 990513694}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -7973,7 +8095,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 3298.769, y: -85.15}
+  m_AnchoredPosition: {x: 3298.7688, y: -85.15}
   m_SizeDelta: {x: 170, y: 170.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040616746

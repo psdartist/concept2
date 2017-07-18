@@ -10,7 +10,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: Mind F*ck Games
+  companyName: GameFestival
   productName: Ai Cuvinte
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
@@ -218,7 +218,7 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 2
   androidSplashScreen: {fileID: 2800000, guid: 2f1516a91dd9871429be2c3ff90e1cb9, type: 3}
-  AndroidKeystoreName: E:/munca/five/game/wordbr/Wordbr/aicuvinte.keystore
+  AndroidKeystoreName: D:/_james/concept2/aicuvinte.keystore
   AndroidKeyaliasName: ai cuvinte
   AndroidTVCompatibility: 0
   AndroidIsGame: 1

@@ -1,11 +1,9 @@
 fileFormatVersion: 2
-guid: e46788775615461899f3c9cfea00eaec
+guid: 4d57701c547156a40896bff01cbbd0e5
 labels:
-- gvh
-- gvh_teditor
-- gvh_v1.2.31.0
-timeCreated: 1473798236
-licenseType: Pro
+- gpsr
+timeCreated: 1500370441
+licenseType: Free
 PluginImporter:
   serializedVersion: 2
   iconMap: {}
@@ -13,6 +11,12 @@ PluginImporter:
   isPreloaded: 0
   isOverridable: 0
   platformData:
+    data:
+      first:
+        Android: Android
+      second:
+        enabled: 1
+        settings: {}
     data:
       first:
         Any: 
@@ -26,13 +30,6 @@ PluginImporter:
         enabled: 0
         settings:
           DefaultValueInitialized: true
-    data:
-      first:
-        Windows Store Apps: WindowsStoreApps
-      second:
-        enabled: 0
-        settings:
-          CPU: AnyCPU
   userData: 
   assetBundleName: 
   assetBundleVariant: 
