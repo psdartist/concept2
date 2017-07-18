@@ -20,6 +20,7 @@ public class SoundManager : MonoBehaviour
     AudioSource _source0;
     AudioSource _source1;
 
+    private bool _locked = true;
     bool _isFirst = true; //is _source0 currently the active AudioSource (plays some sound right now)
 
     Coroutine _zerothSourceFadeRoutine = null;
@@ -36,10 +37,29 @@ public class SoundManager : MonoBehaviour
         AudioSource[] sources = attachedSources.Select(c => c as AudioSource).ToArray();
 
         InitSources(sources);
+
+        StartCoroutine(WaitForGameSounds());
     }
-    
+
+    IEnumerator WaitForGameSounds()
+    {
+        yield return new WaitForSeconds(5);
+
+        _locked = false;
+    }
+
+    public void Play(string resource)
+    {
+        var audioClip = Resources.Load("Sounds/" + resource, typeof(AudioClip)) as AudioClip;
+
+        CrossFade(audioClip, 0.5f, 0.01f, 0f);
+    }
+
     public void PlayLetterSound()
     {
+        if (_locked)
+            return;
+
         if (_audioClipLetter == null)
         {
             _audioClipLetter = Resources.Load("Sounds/keyboard", typeof(AudioClip)) as AudioClip;
@@ -50,6 +70,9 @@ public class SoundManager : MonoBehaviour
 
     public void PlayWinSound()
     {
+        if (_locked)
+            return;
+
         if (_audioClipWin == null)
         {
             _audioClipWin = Resources.Load("Sounds/gmae", typeof(AudioClip)) as AudioClip;
