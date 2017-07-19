@@ -13,6 +13,11 @@ public class SplashController : MonoBehaviour
     readonly float duration = 0.5f; // This will be your time in seconds.
     readonly float smoothness = 0.04f; // This will determine the smoothness of the lerp. Smaller values are smoother. Really it's the time between updates.
 
+    void Awake()
+    {
+        Splash.gameObject.SetActive(true);
+    }
+
     void Start()
     {
         StartCoroutine(ShowCompanySplash());

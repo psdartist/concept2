@@ -149,7 +149,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'SIZE: 3x3 - LEVELS: 3/5'
+  m_Text: 'NIVELE: 3/5'
 --- !u!114 &11425248
 MonoBehaviour:
   m_ObjectHideFlags: 1

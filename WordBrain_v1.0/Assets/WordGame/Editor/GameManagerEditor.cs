@@ -44,6 +44,9 @@ public class GameManagerEditor : Editor
 		EditorGUILayout.PropertyField(serializedObject.FindProperty("letterTilePrefab"));
         EditorGUILayout.PropertyField(serializedObject.FindProperty("rewardedButton"));
 
+        if (Application.isPlaying)
+	        instance.CurrentHints = EditorGUILayout.IntField("Current Hints :", instance.CurrentHints);
+
         DrawCategoryInfos();
 		DrawDailyPuzzleLevels();
 
