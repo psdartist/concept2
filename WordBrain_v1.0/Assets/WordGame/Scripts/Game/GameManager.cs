@@ -94,7 +94,7 @@ public class GameManager : SingletonComponent<GameManager>
 
 	public static string					SaveDataPath				{ get { return Application.persistentDataPath + "/save.dat"; } }
 	public ObjectPool						LetterTilePool				{ get; private set; }
-	public int								CurrentHints				{ get; private set; }
+	public int								CurrentHints				{ get; set; }
 	public string							ActiveCategory				{ get; private set; }
 	public int								ActiveLevelIndex			{ get; private set; }
 	public int								ActiveDailyPuzzleIndex		{ get; private set; }
