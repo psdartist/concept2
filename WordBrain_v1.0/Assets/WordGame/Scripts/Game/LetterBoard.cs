@@ -493,6 +493,11 @@ public class LetterBoard : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         foreach (LetterTile letterTile in sLetterTiles)
         {
             _attemptedWord = "";
+            foreach (LetterTile sLetterTile in letterTiles)
+            {
+                if (sLetterTile != null)
+                    sLetterTile.FakeChecked = false;
+            }
 
             isAtleastOneCombinationPossible = ConnectTile(letterTile, 0);
 
@@ -516,7 +521,7 @@ public class LetterBoard : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 
         foreach (LetterTile tile in letterTiles)
         {
-            if (tile.Found == false)
+            if (tile != null && tile.Found == false)
             {
                 tile.SetImpossible();
             }
@@ -560,57 +565,89 @@ public class LetterBoard : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         var topTile = letterTiles.Find(l => l != null && l.x == (tile.x) && l.y == (tile.y - 1));
         if (IsNextTile(topTile, wordIndex))
         {
+            tile.FakeChecked = true;
+
             if (ConnectTile(topTile, wordIndex + 1))
                 return true;
+
+            tile.FakeChecked = false;
         }
 
         var topRightTile = letterTiles.Find(l => l != null && l.x == (tile.x + 1) && l.y == (tile.y - 1));
         if (IsNextTile(topRightTile, wordIndex))
         {
+            tile.FakeChecked = true;
+
             if (ConnectTile(topRightTile, wordIndex + 1))
                 return true;
+
+            tile.FakeChecked = false;
         }
 
         var rightTile = letterTiles.Find(l => l != null && l.x == (tile.x + 1) && l.y == (tile.y));
         if (IsNextTile(rightTile, wordIndex))
         {
+            tile.FakeChecked = true;
+
             if (ConnectTile(rightTile, wordIndex + 1))
                 return true;
+
+            tile.FakeChecked = false;
         }
 
         var bottomRightTile = letterTiles.Find(l => l != null && l.x == (tile.x + 1) && l.y == (tile.y + 1));
         if (IsNextTile(bottomRightTile, wordIndex))
         {
+            tile.FakeChecked = true;
+
             if (ConnectTile(bottomRightTile, wordIndex + 1))
                 return true;
+
+            tile.FakeChecked = false;
         }
 
         var bottomTile = letterTiles.Find(l => l != null && l.x == (tile.x) && l.y == (tile.y + 1));
         if (IsNextTile(bottomTile, wordIndex))
         {
+            tile.FakeChecked = true;
+
             if (ConnectTile(bottomTile, wordIndex + 1))
                 return true;
+
+            tile.FakeChecked = false;
         }
 
         var bottomLeftTile = letterTiles.Find(l => l != null && l.x == (tile.x - 1) && l.y == (tile.y + 1));
         if (IsNextTile(bottomLeftTile, wordIndex))
         {
+            tile.FakeChecked = true;
+
             if (ConnectTile(bottomLeftTile, wordIndex + 1))
                 return true;
+
+            tile.FakeChecked = false;
         }
 
         var leftTile = letterTiles.Find(l => l != null && l.x == (tile.x - 1) && l.y == (tile.y));
         if (IsNextTile(leftTile, wordIndex))
         {
+            tile.FakeChecked = true;
+
             if (ConnectTile(leftTile, wordIndex + 1))
                 return true;
+
+            tile.FakeChecked = false;
         }
 
         var topLeftTile = letterTiles.Find(l => l != null && l.x == (tile.x - 1) && l.y == (tile.y - 1));
         if (IsNextTile(topLeftTile, wordIndex))
         {
+            tile.FakeChecked = true;
+
             if (ConnectTile(topLeftTile, wordIndex + 1))
                 return true;
+
+            tile.FakeChecked = false;
         }
 
         _attemptedWord = _attemptedWord.TrimEnd(_attemptedWord[_attemptedWord.Length - 1]);
@@ -620,7 +657,9 @@ public class LetterBoard : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
 
     bool IsNextTile(LetterTile tile, int index)
     {
-        if (tile != null && tile.Found == false
+        if (tile != null
+            && tile.Found == false
+            && tile.FakeChecked == false
             && _wordToCheck.Length != (index + 1)
             && tile.LetterText.text == _wordToCheck[index + 1].ToString())
             return true;
