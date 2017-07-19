@@ -25,6 +25,7 @@ public class LetterTile : MonoBehaviour
 
     public int x;
     public int y;
+    public bool FakeChecked;
     private Color _red = new Color32(255, 111, 111, 255);
 
     #endregion
@@ -36,6 +37,7 @@ public class LetterTile : MonoBehaviour
     public bool Selected { get; set; }
     public bool Found { get; set; }
     public char Letter { get; set; }
+    
 
     #endregion
 
