@@ -2201,7 +2201,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1706.8839, y: -85.15}
+  m_AnchoredPosition: {x: 1706.884, y: -85.15}
   m_SizeDelta: {x: 3003.7678, y: 170.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &732242396
@@ -4610,117 +4610,114 @@ MonoBehaviour:
   letterTilePrefab: {fileID: 11454354, guid: db8b2f81259d8495e8e9a31f9ca9b0f5, type: 2}
   categoryInfos:
   - name: Baschet
-    description: 2x2
+    description: 'Nivelul 1 '
     icon: {fileID: 21300000, guid: 20c1d55f968de534fbcf70ff60b71e4b, type: 3}
     levelInfos:
     - words:
-      - "LAM\u0102"
+      - "CO\u0218"
     - words:
       - ATAC
     - words:
-      - MARE
+      - "PAS\u0102"
     - words:
-      - TORT
+      - CAPAC
     - words:
-      - TAUR
+      - BLOCAJ
     - words:
-      - MIEZ
+      - MINGE
     - words:
-      - ATOM
+      - "FENT\u0102"
     - words:
-      - CARD
+      - PIVOT
     - words:
-      - SPIC
+      - CULOAR
     - words:
-      - EGAL
+      - ARBITRU
   - name: Fotbal
-    description: 2x2
+    description: 'Nivelul 2 '
     icon: {fileID: 21300000, guid: 141f2e4184977e64eb80d208a07b0523, type: 3}
     levelInfos:
     - words:
-      - BRAD
+      - GOL
     - words:
-      - "MOD\u0102"
+      - FAULT
     - words:
-      - "TAT\u0102"
+      - "HEN\u021A"
     - words:
-      - OGAR
+      - PORTAR
     - words:
-      - GURU
+      - VICTORIE
+    - words:
+      - BALON
     - words:
       - REGE
     - words:
-      - CRIN
+      - "FUNDA\u015E"
     - words:
-      - "U\u0218OR"
+      - "JUC\u0102TOR"
     - words:
-      - "LAM\u0102"
-    - words:
-      - TARE
-  - name: Bomba
-    description: 3x3
+      - MINGE
+  - name: Plaja
+    description: 'Nivelul 3 '
     icon: {fileID: 21300000, guid: ca0a548a1cb0e3e48a5bd0b82cb6f7f6, type: 3}
     levelInfos:
     - words:
-      - "PUBEL\u0102"
-      - "ALB\u0102"
+      - "PLAJ\u0102"
+      - ALGE
     - words:
-      - FURIOS
-      - URS
+      - "AP\u0102"
+      - "S\u0102RAT\u0102"
     - words:
-      - ATOM
-      - ACTOR
+      - CASTEL
+      - NISIP
     - words:
-      - UNT
-      - BERBEC
+      - COSTUM
+      - BAIE
     - words:
-      - RAC
-      - ARTIST
+      - "CREM\u0102"
+      - "PROTEC\u021AIE"
     - words:
-      - "BANAN\u0102"
-      - CIP
+      - "UMBREL\u0102"
+      - SOARE
     - words:
-      - "\u0218UNC\u0102"
-      - "PAT\u0102"
+      - "\u0218EZLONG"
+      - "PLAJ\u0102"
     - words:
-      - "PUNG\u0102"
-      - SOMN
+      - "BARC\u0102"
+      - VAPOR
     - words:
-      - "M\u0102TUR\u0102"
-      - OPT
+      - ALGE
+      - "PE\u0218TI"
     - words:
-      - "BUNC\u0102R"
-      - COD
+      - SALVAMAR
+      - COLAC
     - words:
-      - "CABIN\u0102"
-      - "P\u0102R"
+      - "PLUT\u0102"
+      - "VEST\u0102"
     - words:
-      - CAP
-      - CIMENT
+      - PIELE
+      - BRONZAT
     - words:
-      - LEU
-      - "COMET\u0102"
+      - TURISM
+      - MAMAIA
     - words:
-      - "CEA\u0218C\u0102"
-      - MOP
+      - SKI
+      - NAUTIC
     - words:
-      - BIZON
-      - NOU
+      - WAKEBOARDING
     - words:
-      - DIG
-      - "C\u0102DERE"
+      - "DISTRAC\u021AIE"
     - words:
-      - ROZ
-      - BLOND
+      - "INSOLA\u021AIE"
     - words:
-      - SUFLA
-      - "\u0218OC"
+      - "VACAN\u021A\u0102"
+      - "LUNG\u0102"
     - words:
-      - FRUCTE
-      - FUM
+      - "S\u0102RITUR\u0102"
+      - "AP\u0102"
     - words:
-      - FRIZER
-      - ARC
+      - IAHTING
+      - KAIAC
   - name: Hamburger
     description: 3x3
     icon: {fileID: 21300000, guid: 1a4241ab2498b9d44b2a792b28493d99, type: 3}
@@ -5528,7 +5525,7 @@ MonoBehaviour:
       - GRADE
       - "DELT\u0102"
     - words:
-      - 'LABRADOR  '
+      - LABRADOR
       - INFINIT
       - "\xCENCET"
       - "LENE\u0218"
@@ -6052,6 +6049,34 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1577223067}
+--- !u!1 &1607581689
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1607581690}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1607581690
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1607581689}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1629055399
 GameObject:
   m_ObjectHideFlags: 0
@@ -7736,7 +7761,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rewardedVideoPeriod: 60
-  rewardedVideoAmount: 2
+  rewardedVideoAmount: 10
   adPeriod: 90
   completeDailyPuzzleAward: 10
   completeNormalLevelAward: 1
@@ -7930,7 +7955,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 3298.7688, y: -85.15}
+  m_AnchoredPosition: {x: 3298.7686, y: -85.15}
   m_SizeDelta: {x: 170, y: 170.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040616746

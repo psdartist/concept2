@@ -2,15 +2,7 @@ fileFormatVersion: 2
 guid: 158a778c83ad43c1a4c24f76ca5bf25c
 labels:
 - gvh
-- gvh_teditor
-<<<<<<< HEAD:WordBrain_v1.0/Assets/PlayServicesResolver/Editor/Google.IOSResolver.dll.meta
-- gvh_v1.2.23.0
-timeCreated: 1500369811
-=======
 - gvh_v1.2.31.0
-timeCreated: 1500370344
->>>>>>> f27aa6894c27795db4d99a27c4ff24817823fb8a:WordBrain_v1.0/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.31.0.dll.meta
-licenseType: Free
 PluginImporter:
   serializedVersion: 2
   iconMap: {}
