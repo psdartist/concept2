@@ -5236,130 +5236,133 @@ MonoBehaviour:
       - ARS
     - words:
       - "CL\u0102N\u021A\u0102NIT"
-  - name: Gogoasa
+  - name: Dulciuri
     description: 3x3
     icon: {fileID: 21300000, guid: eeb640be63591a34f9f5e72f8c559890, type: 3}
     levelInfos:
     - words:
-      - "ZAH\u0102R"
-      - SIROPOS
-    - words:
-      - DULCE
-      - GRAS
-    - words:
-      - "PR\u0102JIT"
-      - MIEZ
-    - words:
-      - "AROM\u0102"
-      - CINCI
-    - words:
-      - SIROP
-      - MURE
+      - "GOGOA\u0218\u0102"
+      - "PUFOAS\u0102"
     - words:
       - "CREM\u0102"
-      - CAJU
+      - "ZAH\u0102R"
+      - ARS
+    - words:
+      - "\xCENGHE\u021AAT\u0102"
+      - VANILIE
+    - words:
+      - "PAPANA\u0218I"
+      - "DULCEA\u021AA"
+    - words:
+      - TIRAMISU
+      - CAFEA
+    - words:
+      - LAPTE
+      - "PAS\u0102RE"
     - words:
       - "ESEN\u021A\u0102"
       - ROM
     - words:
-      - ALUAT
-      - COPT
+      - "CREM\u0102"
+      - VANILIE
     - words:
-      - "ART\u0102"
-      - LEGAL
+      - "CIOCOLAT\u0102"
+      - "NEAGR\u0102"
     - words:
-      - "GUM\u0102"
-      - IARNA
+      - PARFAIT
+      - AVOCADO
     - words:
-      - CALM
-      - FURAT
+      - "G\u0102LU\u0218TE"
+      - "PRUN\u0102"
     - words:
-      - CASH
-      - CURAT
+      - CHEESECAKE
+      - OREO
     - words:
-      - "LAN\u021A"
-      - "\u021AINT\u0102"
+      - TORT
+      - DIPLOMAT
     - words:
-      - CLOR
-      - "DIN\u021AI"
+      - "NEGRES\u0102"
+      - "\xCENSIROPAT\u0102"
     - words:
-      - TERME
-      - CIRC
+      - "PR\u0102JITUR\u0102"
+      - "INTELIGEN\u021A\u0102"
     - words:
-      - "LIMB\u0102"
-      - DANS
+      - "ZAH\u0102R"
+      - SIROP
     - words:
-      - DATE
-      - TOTEM
+      - NUTELLA
+      - FINETTI
     - words:
-      - "TRUF\u0102"
-      - TOBE
+      - "DULCEA\u021A\u0102"
+      - TRANDAFIRI
     - words:
-      - DUEL
-      - TUNEL
+      - "RULAD\u0102"
+      - "ZMEUR\u0102"
     - words:
-      - GOLF
-      - "CURB\u0102"
+      - COZONAC
+      - STAFIDE
     - words:
-      - FIRE
-      - VIRUS
+      - MOUSSE
+      - "CIOCOLAT\u0102"
     - words:
-      - FIER
-      - VOCAL
+      - "CREM\u0102"
+      - MASCARPONE
     - words:
-      - "MUZ\u0102"
-      - "MORS\u0102"
+      - TRIGON
+      - MERE
     - words:
-      - ZIAR
-      - FOCOS
+      - PALEURI
+      - "L\u0102M\xC2IE"
     - words:
-      - "P\u0102UN"
-      - BOGAT
+      - "PL\u0102CINT\u0102"
+      - "IMPLETIT\u0102"
     - words:
-      - "UR\xC2T"
-      - SUDOR
+      - "BUDINC\u0102"
+      - VANILIE
     - words:
-      - STOP
-      - "S\xC2RM\u0102"
+      - "SAVARIN\u0102"
+      - "FRI\u0218C\u0102"
     - words:
-      - "EPAV\u0102"
-      - MELC
+      - SUFLEU
+      - MURE
     - words:
-      - VENE
-      - CHEIE
+      - MOELLEUX
+      - "CIOCOLAT\u0102"
     - words:
-      - "MIZ\u0102"
-      - IAURT
+      - SORBET
+      - MANGO
     - words:
-      - DAR
-      - "ZEBR\u0102"
+      - BATON
+      - CARAMEL
     - words:
-      - ALTAR
-      - GEST
+      - PRALINE
+      - NOUGAT
     - words:
-      - "ARCA\u0218"
-      - "NOU\u0102"
+      - BOUNTY
+      - SNICKERS
+      - MARS
+      - TWIX
     - words:
-      - BIDEU
-      - "ORC\u0102"
+      - MILKSHAKE
+      - CAFEA
     - words:
-      - CURTE
-      - OLAR
+      - ICE
+      - FRAPPE
     - words:
-      - ZIAR
-      - MINUS
+      - ECLER
+      - VIENEZ
     - words:
-      - "BARB\u0102"
-      - "RAS\u0102"
+      - CLATITE
+      - PUFOASE
     - words:
-      - EXOD
-      - PIEPT
+      - CROISSANT
+      - UNT
     - words:
-      - MAIA
-      - "BUC\u0218\u0102"
+      - "TURT\u0102"
+      - DULCE
     - words:
-      - NEAM
-      - PROST
+      - NAPOLITANE
+      - VIENEZE
   - name: Foc
     description: 4X4
     icon: {fileID: 21300000, guid: 1b5306e8bf35f6a46a1326007d6ec597, type: 3}
@@ -8235,7 +8238,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 3298.7686, y: -85.15}
+  m_AnchoredPosition: {x: 3298.7688, y: -85.15}
   m_SizeDelta: {x: 170, y: 170.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040616746
