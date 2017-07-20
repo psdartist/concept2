@@ -3983,7 +3983,7 @@ MonoBehaviour:
   id: categories
   worldObjects: []
   categoriesListContainer: {fileID: 1371297835}
-  categoryListItemPrefab: {fileID: 11425248, guid: b5bd0d5a29b6b4f3199d11b6f5ece15f,
+  categoryListItemPrefab: {fileID: 114223172761812834, guid: 93d645a72fd07da41acfd9837eb1303c,
     type: 2}
 --- !u!1 &1277342074
 GameObject:
