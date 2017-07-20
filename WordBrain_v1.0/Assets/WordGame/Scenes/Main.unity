@@ -5109,11 +5109,9 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: 4e8afd7e1703f334da102e5e6372d679, type: 3}
     levelInfos:
     - words:
-      - "TAT\u0102"
-      - BEAT
+      - "AR\u0218I"
     - words:
-      - "DEVOREAZ\u0102"
-      - TOT
+      - ORIBIL
     - words:
       - "VIPER\u0102"
       - "VENINOAS\u0102"
@@ -5163,74 +5161,78 @@ MonoBehaviour:
       - SE
       - PRODUCE
     - words:
-      - "ORG\u0102"
-      - "MUZIC\u0102"
+      - "BALENA-ALBASTR\u0102"
     - words:
-      - "CURB\u0102"
-      - CALE
+      - DECEDATA
+      - "\xCENTRU-UN"
+      - "\u0218AN\u021A"
     - words:
-      - ACORD
-      - DAT
+      - ROCHIE
+      - DE
+      - "MIREAS\u0102"
     - words:
-      - "V\xC2RF"
+      - INTRATUL
       - "AD\xC2NC"
     - words:
-      - PAI
-      - "M\u0102TURA"
+      - "M\u0102TUR\u0102-N"
+      - "LATIN\u0102"
     - words:
-      - PERVAZ
-      - GRI
+      - INSPIR
+      - "GROAZ\u0102"
     - words:
-      - "C\u0102RU\u021A\u0102"
-      - ROZ
+      - RESPIR
+      - MOARTE
     - words:
       - "\u0218URUB"
-      - NIT
+      - "\xCENFIPT-N"
+      - "G\xC2T"
     - words:
-      - "SCOIC\u0102"
-      - MIT
+      - "SCENA MOR\u021AII"
+      - "GLUM\u0102 FATAL\u0102"
     - words:
-      - SEMNAL
-      - MIM
+      - VINE
+      - IARNA
     - words:
-      - "SIREN\u0102"
-      - JOS
+      - MOARTE
+      - "ARMONIOAS\u0102"
     - words:
+      - PULSUL
       - STATIC
-      - "SO\u021A"
     - words:
-      - "PRISM\u0102"
-      - IMN
+      - IMNUL
+      - DE
+      - FINAL
     - words:
-      - REFLEX
-      - IOD
+      - REFLEXUL
+      - "S\xC2NGEROS"
     - words:
-      - "REGAT\u0102"
-      - "V\u0102R"
+      - "V\u0102L"
+      - DE
+      - "MIREAS\u0102"
     - words:
-      - "\u0218EF"
-      - "R\u0102\u015EIN\u0102"
+      - SUFLET
+      - SUPT
     - words:
-      - OAMENI
       - "\u0218AH"
+      - MAT
     - words:
+      - ACOPERIT
+      - DE
       - FOSFOR
-      - JUG
     - words:
-      - ARS
       - "C\u0102RARE"
+      - "\xCENTUNECAT\u0102"
     - words:
-      - "M\u0102SLIN"
-      - LAC
+      - "DEVOREAZ\u0102"
+      - TOT
     - words:
-      - "SUZET\u0102"
+      - PICIOR
       - ROS
     - words:
-      - NEURON
+      - NEONUL
       - ARS
     - words:
-      - SUPER
-      - "MU\u0218CHI"
+      - "CL\u0102N\u021A\u0102NIT"
   - name: Gogoasa
     description: 3x3
     icon: {fileID: 21300000, guid: eeb640be63591a34f9f5e72f8c559890, type: 3}
@@ -8230,7 +8232,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 3298.7683, y: -85.15}
+  m_AnchoredPosition: {x: 3298.7686, y: -85.15}
   m_SizeDelta: {x: 170, y: 170.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040616746
