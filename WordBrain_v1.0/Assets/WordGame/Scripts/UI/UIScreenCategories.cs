@@ -27,7 +27,10 @@ public class UIScreenCategories : UIScreen
 	{
 		categoryItemObjectPool.ReturnAllObjectsToPool();
 
-		for (int i = 0; i < GameManager.Instance.CategoryInfos.Count; i++)
+	    int minimumAvailableCategories = 5;
+	    int availableCategories = 0;
+
+        for (int i = 0; i < GameManager.Instance.CategoryInfos.Count; i++)
 		{
 			CategoryInfo categoryInfo = GameManager.Instance.CategoryInfos[i];
 
@@ -39,8 +42,23 @@ public class UIScreenCategories : UIScreen
 
 			CategoryListItem categoryListItem = categoryItemObjectPool.GetObject().GetComponent<CategoryListItem>();
 
-			categoryListItem.Setup(categoryInfo);
-			categoryListItem.gameObject.SetActive(true);
+            // we count how many categories we completed.
+		    if (categoryListItem.Setup(categoryInfo))
+		    {
+		        minimumAvailableCategories++;
+		    }
+
+		    if (availableCategories < minimumAvailableCategories)
+		    {
+		        availableCategories++;
+                categoryListItem.SetLocked(false);
+		    }
+		    else
+		    {
+                categoryListItem.SetLocked(true);
+            }
+
+		    categoryListItem.gameObject.SetActive(true);
 		}
 	}
 
