@@ -3983,7 +3983,7 @@ MonoBehaviour:
   id: categories
   worldObjects: []
   categoriesListContainer: {fileID: 1371297835}
-  categoryListItemPrefab: {fileID: 11425248, guid: b5bd0d5a29b6b4f3199d11b6f5ece15f,
+  categoryListItemPrefab: {fileID: 114223172761812834, guid: 93d645a72fd07da41acfd9837eb1303c,
     type: 2}
 --- !u!1 &1277342074
 GameObject:
@@ -8232,7 +8232,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 3298.7683, y: -85.15}
+  m_AnchoredPosition: {x: 3298.7686, y: -85.15}
   m_SizeDelta: {x: 170, y: 170.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040616746
