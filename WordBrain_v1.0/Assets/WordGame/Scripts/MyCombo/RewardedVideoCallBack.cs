@@ -20,7 +20,8 @@ public class RewardedVideoCallBack : MonoBehaviour {
     {
         GameManager.Instance.AddHint(GameConfig.instance.rewardedVideoAmount);
         CUtils.SetActionTime(ACTION_NAME);
-        Toast.instance.ShowMessage(string.Format("You have received {0} hints", GameConfig.instance.rewardedVideoAmount), 2.5f);
+        var amount = GameConfig.instance.rewardedVideoAmount;
+        Toast.instance.ShowMessage(string.Format("Ai primit <b><color=#ff6f6fff>{0} ", amount + "</color></b>" + ((amount == 1) ? " indiciu !" : " indicii !")), 2.5f);
         GoogleAnalyticsV3.instance.LogEvent("Rewarded Video", "On Rewarded", "On Rewarded", 0);
     }
 

@@ -230,6 +230,20 @@ public class AdmobController : MonoBehaviour
     {
         print("HandleInterstitialClosed event received");
         RequestInterstitial();
+
+        var amount = GameConfig.instance.GetInterstitialCallbackAmount();
+        GameManager.Instance.AddHint(amount);
+        Toast.instance.ShowMessage(string.Format("Ai primit <b><color=#ff6f6fff>{0} ", amount + "</color></b>" + ((amount == 1) ? " indiciu !" : " indicii !")), 2.5f);
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            var amount = GameConfig.instance.GetInterstitialCallbackAmount();
+            GameManager.Instance.AddHint(amount);
+            Toast.instance.ShowMessage(string.Format("Ai primit <b><color=#ff6f6fff>{0} ", amount + "</color></b>" + ((amount == 1) ? " indiciu !" : " indicii !")), 2.5f);
+        }
     }
 
     public void HandleInterstitialLeftApplication(object sender, EventArgs args)
