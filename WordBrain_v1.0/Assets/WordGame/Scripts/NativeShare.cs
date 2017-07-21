@@ -7,6 +7,7 @@ public class NativeShare : MonoBehaviour
     public string subject, ShareMessage, url;
     private bool isProcessing = false;
     public string ScreenshotName = "screenshot.png";
+    
     public void ShareScreenshotWithText()
     {
         // Share();
@@ -25,6 +26,14 @@ Debug.Log("No sharing set up for this platform.");
     }
 
     public GameObject ShareButton;
+    public GameObject BottomHelper;
+    public RectTransform CompletedWordsContainer;
+
+    void Start()
+    {
+        ShareButton.SetActive(true);
+        BottomHelper.SetActive(false);
+    }
 
 #if UNITY_ANDROID
     public IEnumerator ShareScreenshot()
@@ -35,18 +44,20 @@ Debug.Log("No sharing set up for this platform.");
         string screenShotPath = Application.persistentDataPath + "/" + ScreenshotName;
 
         ShareButton.SetActive(false);
+        BottomHelper.SetActive(true);
+
+        CompletedWordsContainer.localPosition = new Vector2(CompletedWordsContainer.localPosition.x, CompletedWordsContainer.localPosition.y + 35);
 
         //---------------------------------------------------------------------------------------------------------
         //---------------------------------------------------------------------------------------------------------
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.2f);
         //---------------------------------------------------------------------------------------------------------
 
         Application.CaptureScreenshot(ScreenshotName);
         
-
         //---------------------------------------------------------------------------------------------------------
         //---------------------------------------------------------------------------------------------------------
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.1f);
         //---------------------------------------------------------------------------------------------------------
 
 
@@ -74,10 +85,13 @@ Debug.Log("No sharing set up for this platform.");
 
         //---------------------------------------------------------------------------------------------------------
         //---------------------------------------------------------------------------------------------------------
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.1f);
         //---------------------------------------------------------------------------------------------------------
 
         ShareButton.SetActive(true);
+        BottomHelper.SetActive(false);
+
+        CompletedWordsContainer.localPosition = new Vector2(CompletedWordsContainer.localPosition.x, CompletedWordsContainer.localPosition.y - 35);
     }
 #endif
 #if UNITY_IOS
