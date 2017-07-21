@@ -5363,526 +5363,524 @@ MonoBehaviour:
     - words:
       - NAPOLITANE
       - VIENEZE
-  - name: Foc
+  - name: Culori si Arta
     description: 4X4
     icon: {fileID: 21300000, guid: 1b5306e8bf35f6a46a1326007d6ec597, type: 3}
     levelInfos:
     - words:
-      - POM
-      - COPAC
-      - PIN
-      - "FRUNZ\u0102"
-    - words:
-      - LUP
-      - URS
-      - VULPE
-      - PORCI
-    - words:
-      - SUC
-      - LAPTE
-      - CEAI
-      - "AP\u0102"
-    - words:
-      - CAP
-      - "M\xC2N\u0102"
-      - PICIOR
-      - "G\xC2T"
-    - words:
-      - "V\xC2NT"
-      - PLOAIE
-      - GER
-      - CALD
-    - words:
-      - BISHON
-      - MOPS
-      - PUG
-      - LUP
-    - words:
-      - ACTOR
-      - "SCEN\u0102"
-      - "PIES\u0102"
-    - words:
-      - "PLAJ\u0102"
-      - NISIP
-      - SOARE
-    - words:
-      - NEGRU
+      - ROZ
+      - MOV
+      - VERDE
       - "RO\u0218U"
-      - VIOLET
     - words:
-      - "TEAM\u0102"
-      - "FRIC\u0102"
-      - "SPAIM\u0102"
+      - GALBEN
+      - MARO
+      - ALB
+      - NEGRU
     - words:
-      - "M\u0102R"
-      - "PL\u0102CINT\u0102"
-      - "ZAH\u0102R"
+      - CULORI
+      - GRI
+      - CREM
+      - "VI\u0218INIU"
     - words:
-      - GUNOI
-      - "DE\u015EEU"
-      - POLUAT
+      - PURPURIU
+      - ALBASTRU
+      - PORTOCALIU
     - words:
-      - "ARM\u0102"
-      - CRIMINAL
-      - FURT
+      - FUCSIA
+      - CONTRAST
+      - TURCOAZ
     - words:
-      - "CIN\u0102"
-      - "PR\xC2NZ"
-      - DESERT
+      - CULORI
+      - COMPLEMENTARE
+    - words:
+      - ARGINTIU
+      - ARTISTIC
+    - words:
+      - MONOCROMATIC
+      - ALB
+      - NEGRU
+    - words:
+      - SPECTRU
+      - CURCUBEU
+    - words:
+      - ACVAMARIN
+      - RUGINIU
     - words:
       - DESEN
-      - "C\xC2NTAT"
-      - SUNET
+      - ABSTRACT
     - words:
-      - "CUP\u0102"
-      - SPORT
-      - CAMPION
+      - "SCHI\u021AA"
+      - CREION
+      - "MIN\u0102"
+    - words:
+      - PICTOR
+      - AUTO
+      - PORTRET
+    - words:
+      - "COMPOZI\u021AIE"
+      - "ACRILIC\u0102"
+      - "\u0218EVALET"
+    - words:
+      - "NATUR\u0102"
+      - "MOART\u0102"
+      - INSPIRATIE
+    - words:
+      - PEISAJ
+      - TOMNATIC
+      - PASTEL
     - words:
       - PIAN
       - "VIOAR\u0102"
       - "HARP\u0102"
     - words:
-      - COLEG
-      - AMIC
-      - PRIETEN
+      - "VIOAR\u0102"
+      - XILOFON
+      - PIAN
     - words:
-      - STEA
-      - PLANETA
-      - SOARE
+      - SAXOFON
+      - "\u021AAMBAL"
+      - PORTATIV
     - words:
-      - PIX
-      - STILOU
-      - CREION
-  - name: Briceag
+      - "TROMPET\u0102"
+      - "ORG\u0102"
+      - "TOB\u0102 "
+  - name: Calatorie
     description: 4X4
     icon: {fileID: 21300000, guid: 137b3881d908edb4dafa647ef41b222a, type: 3}
     levelInfos:
     - words:
-      - "UR\xC2T"
-      - VERDE
-      - YOGA
-      - "PIC\u0102"
+      - TREN
+      - PERON
+      - VAGON
+      - "GARNITUR\u0102"
     - words:
-      - "MIZ\u0102"
-      - SULF
-      - "VAR\u0102"
-      - SUMO
+      - AVION
+      - ZBOR
+      - DECOLARE
+      - "CAL\u0102"
     - words:
-      - TEST
-      - TAIFUN
-      - "C\u0102RU\u021A\u0102"
+      - CONTINENT
+      - "ORA\u0218"
+      - MUZEU
+      - TURISM
     - words:
-      - "RULET\u0102"
-      - "SOB\u0102"
-      - "SCHEM\u0102"
+      - BAGAJ
+      - "VALIZ\u0102"
+      - "GEANT\u0102"
+      - PORTOFEL
     - words:
-      - CHEFIR
-      - PLIC
-      - MELC
+      - "PA\u0218APORT"
+      - BILET
+      - DOCUMENT
+      - BULETIN
     - words:
-      - MUGURI
-      - "FA\u021A\u0102"
-      - SUFLEU
+      - DRUM
+      - RUCSAC
+      - CORT
+      - "HART\u0102"
     - words:
-      - SPANAC
-      - ADIO
-      - PESMET
+      - ESCALADARE
+      - BUNGEE
+      - JUMPING
     - words:
-      - GENIST
-      - "\u0218NI\u021AEL"
-      - SCHELE
+      - "C\u0102L\u0102TORIE"
+      - ITALIA
+      - PIZZA
+      - PASTE
     - words:
-      - "LITER\u0102"
-      - PION
-      - LICHID
+      - FOTOGRAFIE
+      - AMINTIRE
+      - MONUMENT
     - words:
-      - "C\xC2MP"
-      - CUBA
-      - "VAM\u0102"
-      - "ROU\u0102"
+      - CITY
+      - BREAK
+      - CEHIA
+      - PRAGA
     - words:
-      - "IEDER\u0102"
-      - IRONIE
-      - "TEM\u0102"
+      - SOARE
+      - EXCURSIE
+      - PLAJA
     - words:
-      - IMPULS
-      - DANS
-      - "IGIEN\u0102"
+      - SEJUR
+      - HOTEL
+      - "RECEP\u021AIE"
     - words:
-      - "COLIB\u0102"
-      - HOCHEI
-      - TOBE
+      - MARELE
+      - ZID
+      - CHINEZESC
     - words:
-      - "C\u0102RUNT"
-      - TURBAN
-      - DUEL
+      - TURNUL
+      - DIN
+      - PISA
     - words:
-      - GROPAR
-      - TIGAIE
-      - "GUM\u0102"
+      - PLIMBARE
+      - GONDOLA
+      - "VENE\u021AIA"
     - words:
-      - CALM
-      - "LAN\u021A"
-      - CLOR
-      - CIRC
+      - MOSCHEEA
+      - "ALBASTR\u0102"
     - words:
-      - "ART\u0102"
-      - BRIE
-      - TRIB
-      - FRAC
+      - PALATUL
+      - TOPKAPI
     - words:
-      - SCAI
-      - VERB
-      - "O\u021AET"
-      - ACRU
+      - COLOSSEUM
+      - ROMA
     - words:
-      - GIGANT
-      - GLUTEN
-      - "FOSIL\u0102"
+      - TURNUL
+      - EIFFEL
+      - PARIS
     - words:
-      - "DIVOR\u021A"
-      - DONARE
-      - CERCEL
+      - PALATUL
+      - WESTMINSTER
     - words:
-      - APARAT
-      - DIALOG
-      - PAIE
+      - PALATUL
+      - BUCKINGHAM
     - words:
-      - TRON
-      - TOFU
-      - ROMB
-      - OREZ
+      - DOMUL
+      - DIN
+      - "FLOREN\u021AA"
     - words:
-      - COLEGI
-      - DIAVOL
-      - "DR\u0102GU\u021A"
+      - BIG
+      - BEN
+      - LONDRA
     - words:
-      - "CA\u0218MIR"
-      - "CAPEL\u0102"
-      - HIMERA
+      - SAGRADA
+      - FAMILIA
+      - BARCELONA
     - words:
-      - "\xCENCHIS"
-      - COPT
-      - "TREFL\u0102"
+      - ARC
+      - TRIUMF
+      - PARIS
     - words:
-      - BUDISM
-      - OCUPAT
-      - "ROL\u0102"
+      - PARTENON
+      - GRECIA
+      - ATENA
     - words:
-      - BARMAN
-      - "RUS\u0102"
-      - VISCOL
+      - ANTIC
+      - EGIPT
+      - PIRAMIDE
     - words:
-      - BROKER
-      - "\u0218AN\u021A"
-      - "M\u0102TU\u0218\u0102"
+      - INDIA
+      - SPIRITUAL
+      - SHAMAN
     - words:
-      - RUCOLA
-      - APETIT
-      - SOSIRE
+      - AMSTERDAM
+      - MARIJUANA
+      - BICICLETE
     - words:
-      - FUNDAL
-      - BARBAR
-      - "MAR\u0218"
+      - "ROM\xC2NIA"
+      - "TRANSF\u0102G\u0102R\u0102\u0218AN"
     - words:
-      - "APLIC\u0102"
-      - PERETE
-      - NUGA
+      - JAPONIA
+      - ORIGAMI
+      - GRADINI
     - words:
-      - STUDENT
-      - WASABI
-      - "OI\u021A\u0102"
+      - GRECIA
+      - INSULE
+      - ANTICHITATE
     - words:
-      - PUSTIU
-      - PAZNIC
-      - "FAZ\u0102"
+      - TAILANDA
+      - MASAJ
+      - TEMPLU
     - words:
-      - "PLU\u0218"
-      - AMIRAL
-      - SIMBOL
+      - AUSTRIA
+      - SKI
+      - RUSTIC
     - words:
-      - GONG
-      - TARHON
-      - "BRIO\u0218E"
+      - MEXIC
+      - TACO
+      - AZTEC
+      - MAIAS
     - words:
-      - TEATRU
-      - TRAPEZ
-      - "SER\u0102"
+      - SPANIA
+      - "CORID\u0102"
+      - "SIEST\u0102"
+      - PAELLA
     - words:
-      - FURNICAR
-      - ACCIDENT
+      - HONG-KONG
+      - TEHNOLOGIE
     - words:
-      - VEDERE
-      - BURETE
-      - RUFE
+      - FRANTA
+      - "BAGHET\u0102"
+      - VIN
+      - "BR\xC2NZ\u0102"
     - words:
-      - AMIDON
-      - "\u0218TEVIE"
-      - SALT
+      - CHINA
+      - URSI
+      - PANDA
     - words:
-      - "PIATR\u0102"
-      - ECOU
-      - SULTAN
-  - name: Camion
+      - LAS
+      - VEGAS
+      - CAZINO
+      - CANION
+  - name: Ocupatii
     description: 4X4
     icon: {fileID: 21300000, guid: 282c31072e50b2641a0bc70455a317fe, type: 3}
     levelInfos:
     - words:
-      - LASOU
-      - PREMIU
-      - GAZON
+      - DENTIST
+      - STOMATOLOGIE
+      - DETARTRAJ
     - words:
-      - "LENE\u0218"
-      - BABUIN
-      - LEMUR
+      - DOCTOR
+      - STETOSCOP
+      - "RE\u021AET\u0102"
     - words:
-      - NIVEL
-      - BURSUC
-      - "VIA\u021A\u0102"
+      - MECANIC
+      - CHEIE
+      - MOTOR
     - words:
-      - LINIE
-      - FICAT
-      - COVRIG
+      - AVIATOR
+      - PILOT
+      - DECOLARE
     - words:
-      - "BUCL\u0102"
-      - BALANS
-      - NOROC
+      - PROGRAMATOR
+      - COD
+      - LIMBAJ
     - words:
-      - "RE\u021AEA"
-      - "BANAN\u0102"
-      - VECHI
+      - "BUC\u0102TAR"
+      - "CU\u021AIT"
+      - PREPARAT
     - words:
-      - MANGO
-      - CASTOR
+      - "OSP\u0102TAR"
+      - "NOT\u0102"
+      - GHIRIDON
+    - words:
+      - MARINAR
+      - MATAGONIT
+      - PUNTE
+    - words:
+      - AVOCAT
+      - LEGE
+      - DREPT
+    - words:
+      - ARHITECT
+      - "SCHI\u021AA"
+      - PROIECT
+    - words:
+      - INGINER
+      - "MECANIC\u0102"
+      - PROCES
+    - words:
+      - BIOLOG
+      - PLANTE
+      - CERCETARE
+    - words:
+      - COREGRAF
+      - DANS
+      - SINCRON
+    - words:
+      - DESIGNER
+      - ASPECT
+      - VIZUAL
+    - words:
+      - CONTABIL
+      - "MATEMATIC\u0102"
+      - "FACTUR\u0102"
+    - words:
+      - PROFESOR
+      - MANUAL
+      - CARTE
+    - words:
+      - MANAGER
+      - STRATEGIE
+      - DEZVOLTARE
+    - words:
+      - TERAPEUT
+      - "\xCENGRIJIRE"
+      - MASAJ
+    - words:
+      - ANTROPOLOG
+      - DEZVOLTARE
+      - "CULTUR\u0102"
+    - words:
+      - CONTROLOR
+      - TRAFIC
+      - AERIAN
+    - words:
+      - CONSULTANT
+      - MANAGEMENT
+    - words:
+      - INGINER
+      - "CONSTRUC\u021AII"
+      - CIVILE
+    - words:
+      - ANALIST
+      - FINANCIAR
+      - TREZORERIE
+    - words:
+      - BIOCHIMIST
+      - ORGANISME
+      - CHIMIE
+    - words:
+      - CARTOGRAF
+      - "MACHET\u0102"
       - "HART\u0102"
     - words:
-      - "ARHITECTUR\u0102"
-      - BALET
+      - COMPOZITOR
+      - NOTE
+      - MUZICALE
     - words:
-      - JELEU
-      - "BR\xC2NZ\u0102"
-      - "MASC\u0102"
+      - FARMACIST
+      - "PREPAR\u0102"
+      - MEDICAMENTE
     - words:
-      - MASAJ
-      - "CELUL\u0102"
-      - BEZEA
+      - CEASORNICAR
+      - MECANISM
+      - TIMP
     - words:
-      - ZIAR
-      - PION
-      - "POZ\u0102"
+      - CROITOR
+      - "MA\u0218IN\u0102"
+      - CUSUT
     - words:
-      - MESAJ
-      - "B\u0102RBIE"
-      - "PLAS\u0102"
+      - AGENT
+      - "PAZ\u0102"
+      - PROTECTIE
     - words:
-      - "SECET\u0102"
-      - "ARC\u0102"
-      - VULTUR
+      - "\u0218OFER"
+      - TIR
+      - CAMION
     - words:
-      - "P\u0102M\xC2NT"
-      - ASTM
-      - "EGRET\u0102"
+      - COSMETICIAN
+      - "\xCENGRIJIRE"
+      - UNGHII
     - words:
-      - "PUDR\u0102"
-      - "MUZIC\u0102"
-      - PREOT
+      - SUDOR
+      - TOPIRE
+      - ARGON
     - words:
-      - "BALT\u0102"
-      - "\xCENGUST"
-      - TRAGE
+      - SPORTIV
+      - "CONDI\u021AIE"
+      - "FIZIC\u0102"
     - words:
-      - "POMP\u0102"
-      - NECTAR
-      - PIURE
+      - TEHNICIAN
+      - SALUBRITATE
+      - "PUBLIC\u0102"
     - words:
-      - "CURS\u0102"
-      - NOAPTE
-      - RADAR
+      - "C\xC2NT\u0102RE\u021A"
+      - VOCALIZE
+      - VERSURI
     - words:
-      - FURIE
-      - ZGOMOT
-      - BOGAT
+      - "T\xC2MPLAR"
+      - "DALT\u0102"
+      - LEMN
     - words:
-      - ROBOT
-      - VAMPIR
-      - RODEO
+      - AGENT
+      - IMOBILIAR
+      - "PROPRIET\u0102\u021AI"
     - words:
-      - ROMAN
-      - STEJAR
-      - "PIST\u0102"
+      - GESTIONAR
+      - PRODUSE
+      - STOC
     - words:
-      - SALAM
-      - "ORBIT\u0102"
-      - SOMON
-    - words:
-      - "SAUN\u0102"
-      - CUPTOR
-      - "UMBR\u0102"
-    - words:
-      - "\u0218AMAN"
-      - VOPSEA
-      - "COAJ\u0102"
-    - words:
-      - "\u0218ERIF"
       - PICTOR
-      - "BOAL\u0102"
-    - words:
-      - TRANDAFIR
-      - "COAC\u0102ZE"
-    - words:
-      - SILOZ
-      - "PALET\u0102"
-      - FELIE
-    - words:
-      - "M\xC2ZG\u0102"
-      - "PANIC\u0102"
-      - "FANT\u0102"
-    - words:
-      - LABRADOR
-      - "CAP\u0102"
-      - "B\xC2T\u0102"
-    - words:
-      - SCURGERE
-      - LEGIONAR
-    - words:
-      - "CEA\u0218C\u0102"
-      - "GR\xC2U"
-      - MACARA
-    - words:
-      - MOALE
-      - HACKER
-      - SUNET
-    - words:
-      - "VRAJ\u0102"
-      - "GR\u0102TAR"
-      - SPORT
-    - words:
-      - SPRAY
-      - "GHEA\u021A\u0102"
-      - SEPIE
-    - words:
-      - "BARZ\u0102"
-      - ILUZIE
-      - STRES
-    - words:
-      - "PLAJ\u0102"
-      - "INSUL\u0102"
-      - VORBI
-    - words:
-      - "\xCENALT"
-      - BORCAN
-      - TANGO
-    - words:
-      - "BAND\u0102"
-      - "MEDUZ\u0102"
-      - "\u021AINT\u0102"
-    - words:
-      - "DIN\u021AI"
-      - KARATE
-      - "LIMB\u0102"
-    - words:
-      - OBIECTIV
-      - "SPIRIDU\u0218"
-  - name: Chimia
+      - "\u0218EVALET"
+      - "PENSUL\u0102"
+  - name: Fructe si Legume
     description: 5X5
     icon: {fileID: 21300000, guid: 42388f6f8953e244d922e28def16dbec, type: 3}
     levelInfos:
     - words:
-      - MIRIAPOD
-      - "\u021AUR\u021AURI"
-      - LEMN
-      - ABIS
+      - "M\u0102R"
+      - "CAIS\u0102"
+      - ASPARAGUS
+      - VINATA
     - words:
-      - PERSONAJ
-      - MAXILAR
-      - GRADE
-      - "DELT\u0102"
+      - AVOCADO
+      - "BANAN\u0102"
+      - "SFECL\u0102"
+      - "RO\u0218IE"
     - words:
-      - LABRADOR
-      - INFINIT
-      - "\xCENCET"
-      - "LENE\u0218"
+      - FASOLE
+      - "MAZ\u0102RE"
+      - BROCOLLI
+      - DOVLEAC
     - words:
-      - "CENU\u0218\u0102"
-      - EXPLOZIBIL
+      - MORCOV
+      - "CIRE\u0218E"
+      - CLEMENTINA
+      - DOVLECEL
     - words:
-      - SCURGERE
-      - MAXILAR
-      - SPOOKY
-      - TREAT
+      - CURMALE
+      - "COAC\u0102ZE"
+      - DUDE
+      - ANDIVE
     - words:
-      - LEGIONAR
-      - CANOTAJ
-      - MIROS
-      - "\u0218ARPE"
+      - FENEL
+      - "SMOCHIN\u0102"
+      - USTUROI
+      - STRUGURE
     - words:
-      - OBIECTIV
-      - RINICHI
-      - "PRIZ\u0102"
-      - "S\u0102PUN"
+      - "P\u0102ST\u0102I"
+      - GUAVA
+      - PEPENE
+      - "SALAT\u0102"
     - words:
-      - "SPIRIDU\u0218"
-      - CAVALER
-      - SUNET
-      - MOALE
+      - GHIMBIR
+      - KIWI
+      - PRAZ
+      - "L\u0102M\xC2IE"
     - words:
-      - MINCINOS
-      - FELINAR
-      - "STIV\u0102"
-      - SEPIE
+      - MANGO
+      - "CIUPERC\u0102"
+      - "NECTARIN\u0102"
+      - "M\u0102SLIN\u0102"
     - words:
-      - "ARHIV\u0102"
-      - "DESC\u0102RCARE"
+      - "PORTOCAL\u0102"
+      - "PAR\u0102"
+      - ARDEI
+      - ANANAS
     - words:
-      - "AMPRENT\u0102"
-      - LASAGNA
-      - BOTEZ
-      - CIDRU
+      - RIDICHE
+      - "STAFID\u0102"
+      - GUTUIE
+      - "RUBARB\u0102"
     - words:
-      - SALVAMAR
-      - LANSARE
-      - "CLEM\u0102"
-      - CANOE
+      - "MANDARIN\u0102"
+      - "C\u0102P\u0218UN\u0102"
+      - CARTOF
+      - DULCE
     - words:
-      - MAGICIAN
-      - "LAVAND\u0102"
-      - COLAJ
-      - BETON
+      - "PRUN\u0102"
+      - ZUCHINI
+      - "ZMEUR\u0102"
+      - RODIE
     - words:
-      - "MAR\u021AIPAN"
-      - "BALAN\u021A\u0102"
-      - CRUCE
-      - "CURB\u0102"
+      - "VI\u0218IN"
+      - "ZARZ\u0102R"
+      - PAPAYA
+      - LITCHI
     - words:
-      - "MEDICIN\u0102"
-      - "PAJI\u0218TE"
-      - BARAJ
-      - DECOR
+      - COCOS
+      - "ALUN\u0102"
+      - CASTANE
+      - CASTRAVETE
     - words:
-      - METRONOM
-      - "\u0218EDIN\u021A\u0102"
-      - GRADE
-      - "DELT\u0102"
+      - PORUMB
+      - KAPIA
+      - GULIE
+      - GREPFRUIT
     - words:
-      - ALPINIST
-      - MEMORIE
-      - "DIOD\u0102"
-      - FORAJ
+      - ANASON
+      - "CEAP\u0102"
+      - "MERI\u0218OR"
+      - DURIAN
     - words:
-      - "NUC\u0218OAR\u0102"
-      - "C\u0102LUG\u0102R"
-      - "DRON\u0102"
-      - ECLER
+      - AGRISE
+      - JACKFRUIT
+      - KUMQUAT
+      - LIME
     - words:
       - "PIERSIC\u0102"
-      - "COMAND\u0102"
-      - "\u021AIPAR"
-      - "ALBU\u0218"
+      - MANGOSTAN
+      - TAMARINO
+      - "P\xC2R\u0102"
     - words:
-      - PERISCOP
-      - "BUFNI\u021A\u0102"
-      - "SMAL\u021A"
-      - ELICE
+      - PRAZ
+      - HREAN
+      - "CORCODU\u015EE"
+      - "CU\u0218-CU\u0218"
   dailyPuzzles:
   - words:
     - "CATEDRAL\u0102"
@@ -8238,7 +8236,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 3298.7688, y: -85.15}
+  m_AnchoredPosition: {x: 3298.769, y: -85.15}
   m_SizeDelta: {x: 170, y: 170.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2040616746
