@@ -5837,7 +5837,7 @@ MonoBehaviour:
       - "TOB\u0102 "
   - name: Calatorie
     description: 4X4
-    icon: {fileID: 21300000, guid: 137b3881d908edb4dafa647ef41b222a, type: 3}
+    icon: {fileID: 21300000, guid: 024b12990665376459b162d207be36b7, type: 3}
     levelInfos:
     - words:
       - TREN
@@ -6006,7 +6006,7 @@ MonoBehaviour:
       - CANION
   - name: Ocupatii
     description: 4X4
-    icon: {fileID: 21300000, guid: 282c31072e50b2641a0bc70455a317fe, type: 3}
+    icon: {fileID: 21300000, guid: 2695db6f733684947ad7eb833592f0f9, type: 3}
     levelInfos:
     - words:
       - DENTIST
@@ -6169,7 +6169,7 @@ MonoBehaviour:
       - "PENSUL\u0102"
   - name: Fructe si Legume
     description: 5X5
-    icon: {fileID: 21300000, guid: 42388f6f8953e244d922e28def16dbec, type: 3}
+    icon: {fileID: 21300000, guid: 9fbc9bf68b023254d85146b2ae66e873, type: 3}
     levelInfos:
     - words:
       - "M\u0102R"
