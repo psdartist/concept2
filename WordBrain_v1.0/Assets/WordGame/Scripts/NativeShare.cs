@@ -26,12 +26,24 @@ Debug.Log("No sharing set up for this platform.");
     }
 
     public GameObject ShareButton;
+    public GameObject HintButton;
+    public GameObject RewardButton;
+    public GameObject RefreshButton;
+
     public GameObject BottomHelper;
     public RectTransform CompletedWordsContainer;
 
+    public float _wordContDecal;
+
     void Start()
     {
+        _wordContDecal = 300;
+
         ShareButton.SetActive(true);
+        HintButton.SetActive(true);
+        RewardButton.SetActive(true);
+        RefreshButton.SetActive(true);
+
         BottomHelper.SetActive(false);
     }
 
@@ -44,9 +56,13 @@ Debug.Log("No sharing set up for this platform.");
         string screenShotPath = Application.persistentDataPath + "/" + ScreenshotName;
 
         ShareButton.SetActive(false);
+        HintButton.SetActive(false);
+        RewardButton.SetActive(false);
+        RefreshButton.SetActive(false);
+
         BottomHelper.SetActive(true);
 
-        CompletedWordsContainer.localPosition = new Vector2(CompletedWordsContainer.localPosition.x, CompletedWordsContainer.localPosition.y + 35);
+        //CompletedWordsContainer.localPosition = new Vector2(CompletedWordsContainer.localPosition.x, CompletedWordsContainer.localPosition.y + _wordContDecal);
 
         //---------------------------------------------------------------------------------------------------------
         //---------------------------------------------------------------------------------------------------------
@@ -89,9 +105,13 @@ Debug.Log("No sharing set up for this platform.");
         //---------------------------------------------------------------------------------------------------------
 
         ShareButton.SetActive(true);
+        HintButton.SetActive(true);
+        RewardButton.SetActive(true);
+        RefreshButton.SetActive(true);
+
         BottomHelper.SetActive(false);
 
-        CompletedWordsContainer.localPosition = new Vector2(CompletedWordsContainer.localPosition.x, CompletedWordsContainer.localPosition.y - 35);
+        //CompletedWordsContainer.localPosition = new Vector2(CompletedWordsContainer.localPosition.x, CompletedWordsContainer.localPosition.y - _wordContDecal);
     }
 #endif
 #if UNITY_IOS
