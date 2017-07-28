@@ -103,8 +103,8 @@ public class GameManager : SingletonComponent<GameManager>
 	public Dictionary<string, bool>			CompletedLevels				{ get; private set; }
 	public bool								AnimatingWord				{ get; private set; }
 	public System.DateTime					NextDailyPuzzleAt			{ get; private set; }
-
-	public List<CategoryInfo> CategoryInfos
+    
+    public List<CategoryInfo> CategoryInfos
 	{
 		get
 		{
@@ -457,7 +457,12 @@ public class GameManager : SingletonComponent<GameManager>
 	/// </summary>
 	private void BoardComplete()
 	{
-		string	boardId 	= Utilities.FormatBoardId(ActiveCategory, ActiveLevelIndex);
+        // if you unlock the min required levels and didn't recieve the UiReview screen.
+	    ReviewController.Instance.CurrentCompletedLevelsNumber++;
+        // fire it !
+        ReviewController.Instance.TryStartView();
+
+        string	boardId 	= Utilities.FormatBoardId(ActiveCategory, ActiveLevelIndex);
 		int	awardNumber	= 0;
 
 		// Check if the completed category was a daily puzzle, if so check if we want to award a hint
@@ -550,7 +555,12 @@ public class GameManager : SingletonComponent<GameManager>
 		#endif
 	}
 
-	/// <summary>
+    public void ForceSaveGame()
+    {
+        Save();
+    }
+
+    /// <summary>
 	/// Saves the game
 	/// </summary>
 	private void Save()
@@ -562,9 +572,9 @@ public class GameManager : SingletonComponent<GameManager>
 		jsonObj.Add("activeLevelIndex", ActiveLevelIndex);
 		jsonObj.Add("ActiveDailyPuzzleIndex", ActiveDailyPuzzleIndex);
 		jsonObj.Add("NextDailyPuzzleAt", NextDailyPuzzleAt.ToString("yyyyMMdd"));
-
-		// Get all the saved board states
-		List<object> savedBoardStatesObj = new List<object>();
+        
+        // Get all the saved board states
+        List<object> savedBoardStatesObj = new List<object>();
 
 		foreach (KeyValuePair<string, BoardState> pair in SavedBoardStates)
 		{
@@ -575,7 +585,7 @@ public class GameManager : SingletonComponent<GameManager>
 
 		// Get all the completed levels
 		List<object> completedLevelsObj = new List<object>();
-
+        
 		foreach (KeyValuePair<string, bool> pair in CompletedLevels)
 		{
 			if (pair.Value)
@@ -586,8 +596,25 @@ public class GameManager : SingletonComponent<GameManager>
 
 		jsonObj.Add("completedLevels", completedLevelsObj);
 
-		// Now convert the jsonObj to a json string and save it to the save file
-		System.IO.File.WriteAllText(SaveDataPath, Utilities.ConvertToJsonString(jsonObj));
+        // review variables
+
+	    //for (var i = ReviewController.Instance.CurrentCompletedLevelsNumber + 1; i < ReviewController.Instance.CurrentCompletedLevelsNumber + 8; i++)
+	    //{
+	    //    if (i%7 == 0)
+	    //    {
+	    //        ReviewController.Instance.ShowReviewAtLevel = i;
+	    //        break;
+	    //    }
+	    //}
+
+        jsonObj.Add("showReviewAtLevels", ReviewController.Instance.ShowReviewAtLevel);
+
+        jsonObj.Add("gaveReview", ReviewController.Instance.GaveReview);
+        jsonObj.Add("refusedReview", ReviewController.Instance.RefusedReview);
+        jsonObj.Add("noLike", ReviewController.Instance.NoLike);
+
+        // Now convert the jsonObj to a json string and save it to the save file
+        System.IO.File.WriteAllText(SaveDataPath, Utilities.ConvertToJsonString(jsonObj));
 	}
 
 	/// <summary>
@@ -603,8 +630,17 @@ public class GameManager : SingletonComponent<GameManager>
 			// Load the number of current hints
 			CurrentHints = json["currentHints"].AsInt;
 
-			// Parse the saved board states
-			JSONArray savedBoardStatesJson = json["savedBoardStates"].AsArray;
+            // review variables
+            ReviewController.Instance.ShowReviewAtLevel = json["showReviewAtLevels"].AsInt;
+		    if (ReviewController.Instance.ShowReviewAtLevel == 0)
+		        ReviewController.Instance.ShowReviewAtLevel = 7;
+
+            ReviewController.Instance.GaveReview = json["gaveReview"].AsBool;
+            ReviewController.Instance.RefusedReview = json["refusedReview"].AsBool;
+            ReviewController.Instance.NoLike = json["noLike"].AsBool;
+
+            // Parse the saved board states
+            JSONArray savedBoardStatesJson = json["savedBoardStates"].AsArray;
 			SavedBoardStates = new Dictionary<string, BoardState>(savedBoardStatesJson.Count);
 
 			for (int i = 0; i < savedBoardStatesJson.Count; i++)
