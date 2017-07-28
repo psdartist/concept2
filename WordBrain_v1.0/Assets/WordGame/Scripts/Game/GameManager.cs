@@ -598,20 +598,20 @@ public class GameManager : SingletonComponent<GameManager>
 
         // review variables
 
-	    for (var i = ReviewController.Instance.CurrentCompletedLevelsNumber + 1; i < ReviewController.Instance.CurrentCompletedLevelsNumber + 8; i++)
-	    {
-	        if (i%7 == 0)
-	        {
-	            ReviewController.Instance.ShowReviewAtLevels = i;
-	            break;
-	        }
-	    }
+	    //for (var i = ReviewController.Instance.CurrentCompletedLevelsNumber + 1; i < ReviewController.Instance.CurrentCompletedLevelsNumber + 8; i++)
+	    //{
+	    //    if (i%7 == 0)
+	    //    {
+	    //        ReviewController.Instance.ShowReviewAtLevel = i;
+	    //        break;
+	    //    }
+	    //}
 
-        jsonObj.Add("showReviewAtLevels", ReviewController.Instance.ShowReviewAtLevels);
+        jsonObj.Add("showReviewAtLevels", ReviewController.Instance.ShowReviewAtLevel);
 
         jsonObj.Add("gaveReview", ReviewController.Instance.GaveReview);
         jsonObj.Add("refusedReview", ReviewController.Instance.RefusedReview);
-        jsonObj.Add("seenReviewScreen", ReviewController.Instance.SeenReviewScreen);
+        jsonObj.Add("noLike", ReviewController.Instance.NoLike);
 
         // Now convert the jsonObj to a json string and save it to the save file
         System.IO.File.WriteAllText(SaveDataPath, Utilities.ConvertToJsonString(jsonObj));
@@ -631,13 +631,13 @@ public class GameManager : SingletonComponent<GameManager>
 			CurrentHints = json["currentHints"].AsInt;
 
             // review variables
-            ReviewController.Instance.ShowReviewAtLevels = json["showReviewAtLevels"].AsInt;
-		    if (ReviewController.Instance.ShowReviewAtLevels == 0)
-		        ReviewController.Instance.ShowReviewAtLevels = 7;
+            ReviewController.Instance.ShowReviewAtLevel = json["showReviewAtLevels"].AsInt;
+		    if (ReviewController.Instance.ShowReviewAtLevel == 0)
+		        ReviewController.Instance.ShowReviewAtLevel = 7;
 
             ReviewController.Instance.GaveReview = json["gaveReview"].AsBool;
             ReviewController.Instance.RefusedReview = json["refusedReview"].AsBool;
-            ReviewController.Instance.SeenReviewScreen = json["seenReviewScreen"].AsBool;
+            ReviewController.Instance.NoLike = json["noLike"].AsBool;
 
             // Parse the saved board states
             JSONArray savedBoardStatesJson = json["savedBoardStates"].AsArray;

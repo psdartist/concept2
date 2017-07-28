@@ -12,9 +12,26 @@ public class ReviewController : MonoBehaviour
 
     public bool GaveReview;
     public bool RefusedReview;
-    public bool SeenReviewScreen;
-    public int ShowReviewAtLevels;
-    public int CurrentCompletedLevelsNumber;
+    public bool NoLike;
+    public int ShowReviewAtLevel;
+
+    private int _currentCompletedLevelsNumber;
+    [SerializeField]
+    public int CurrentCompletedLevelsNumber {
+        get { return _currentCompletedLevelsNumber; }
+        set
+        {
+            _currentCompletedLevelsNumber = value;
+
+            if (GaveReview)
+                return;
+
+            if (_currentCompletedLevelsNumber <= 7)
+            {
+                ShowReviewAtLevel = 7;
+            }
+        }
+    }
 
     public static ReviewController Instance;
 
@@ -40,36 +57,22 @@ public class ReviewController : MonoBehaviour
 
     public void TryStartView(bool force = false)
     {
-        bool show;
-        if (SeenReviewScreen && force == false)
+        if (GaveReview == false && CurrentCompletedLevelsNumber == ShowReviewAtLevel)
         {
-            if (RefusedReview || GaveReview)
-            {
-                show = false;
-            }
-            else
-            {
-                show = true;
-            }
-        }
-        else
-        {
-            show = true;
-        }
-
-        if (show)
-        {
-            if (CurrentCompletedLevelsNumber >= ShowReviewAtLevels)
-            {
-                ShowReviewAtLevels += 7;
-                UiReview.SetActive(true);
-            }
+            NoLike = false;
+            RefusedReview = false;
+            
+            UiReview.SetActive(true);
         }
     }
 
     // Button Events
     public void OnNuChiar()
     {
+        NoLike = true;
+        ShowReviewAtLevel += 30;
+        GameManager.Instance.ForceSaveGame();
+
         Init();
     }
 
@@ -77,15 +80,13 @@ public class ReviewController : MonoBehaviour
     {
         QuestionPanel.SetActive(false);
         DecisionPanel.SetActive(true);
-
-        SeenReviewScreen = true;
     }
 
     public void OnNuMultumesc()
     {
-        Init();
-
         RefusedReview = true;
+        ShowReviewAtLevel += 14;
+        Init();
         GameManager.Instance.ForceSaveGame();
     }
 
@@ -94,6 +95,7 @@ public class ReviewController : MonoBehaviour
         Application.OpenURL("market://details?id=com.psdartist.aicuvinte/");
 
         GaveReview = true;
+        Init();
         GameManager.Instance.ForceSaveGame();
     }
 

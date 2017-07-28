@@ -625,7 +625,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &150000712
 RectTransform:
   m_ObjectHideFlags: 0
@@ -866,9 +866,8 @@ MonoBehaviour:
   DecisionPanel: {fileID: 1198888461}
   GaveReview: 0
   RefusedReview: 0
-  SeenReviewScreen: 0
-  ShowReviewAtLevels: 0
-  CurrentCompletedLevelsNumber: 0
+  NoLike: 0
+  ShowReviewAtLevel: 0
 --- !u!1 &195280089
 GameObject:
   m_ObjectHideFlags: 0
