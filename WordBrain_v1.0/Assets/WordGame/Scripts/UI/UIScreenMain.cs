@@ -40,7 +40,9 @@ public class UIScreenMain : UIScreen
 			}
 		}
 
-		progressRing.SetProgress((float)totalNumberOfCompletedLevels / (float)totalNumberOfLevels);
+	    ReviewController.Instance.CurrentCompletedLevelsNumber = totalNumberOfCompletedLevels;
+
+        progressRing.SetProgress((float)totalNumberOfCompletedLevels / (float)totalNumberOfLevels);
 
 		// Set the Continue button to the active category
 		if (string.IsNullOrEmpty(GameManager.Instance.ActiveCategory) || GameManager.Instance.ActiveCategory == GameManager.dailyPuzzleId)

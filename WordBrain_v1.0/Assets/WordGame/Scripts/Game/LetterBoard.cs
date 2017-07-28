@@ -213,8 +213,6 @@ public class LetterBoard : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
         _foundWordsIndexes = null;
         StopPanel.SetActive(false);
         RefreshButtonHighlight.SetActive(false);
-        _highlightRefresh = false;
-        RefreshButtonImage.color = new Color32(255, 255, 255, 255);
     }
 
     /// <summary>
@@ -457,7 +455,6 @@ public class LetterBoard : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
          */
 
     public GameObject StopPanel;
-    public Image RefreshButtonImage;
     public GameObject RefreshButtonHighlight;
 
     private List<int> _foundWordsIndexes;
@@ -526,28 +523,11 @@ public class LetterBoard : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndD
                 tile.SetImpossible();
             }
         }
-
-        _normalColor = RefreshButtonImage.color;
-        _red = new Color32(255, 111, 111, 255);
-
-        _highlightRefresh = true;
-    }
+     }
 
     readonly float duration = 1.0f; // This will be your time in seconds.
     readonly float smoothness = 0.5f; // This will determine the smoothness of the lerp. Smaller values are smoother. Really it's the time between updates.
-    private Color _normalColor;
-    private Color _red;
-    private bool _highlightRefresh;
-
-    void Update()
-    {
-        if (_highlightRefresh)
-        {
-            RefreshButtonImage.color = Color.Lerp(_normalColor, _red,
-                Mathf.PingPong(Time.time * smoothness, duration));
-        }
-    }
-
+    
     bool ConnectTile(LetterTile tile, int wordIndex)
     {
         _attemptedWord += tile.LetterText.text;

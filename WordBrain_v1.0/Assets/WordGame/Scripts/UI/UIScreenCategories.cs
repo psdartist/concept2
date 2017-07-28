@@ -13,7 +13,7 @@ public class UIScreenCategories : UIScreen
 	#region Member Variables
 
 	private ObjectPool categoryItemObjectPool;
-
+    
 	#endregion
 
 	#region Public Methods
