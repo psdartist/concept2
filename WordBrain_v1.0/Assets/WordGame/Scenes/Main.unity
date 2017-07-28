@@ -5402,8 +5402,8 @@ MonoBehaviour:
       - QUATTRO
       - FORMAGGI
     - words:
-      - CONOPITA
-      - GRATINATA
+      - "CONOPID\u0102"
+      - "GRATINAT\u0102"
     - words:
       - SPAGHETE
       - CARBONARA
@@ -5418,7 +5418,7 @@ MonoBehaviour:
       - "N\u0102UT"
     - words:
       - "SALAT\u0102"
-      - "RUCOL\u0102"
+      - RUCOLA
     - words:
       - CARTOFI
       - CUPTOR
@@ -5455,7 +5455,7 @@ MonoBehaviour:
       - PIEPT
       - PUI
     - words:
-      - COPANELE
+      - "COP\u0102NELE"
       - PUI
     - words:
       - CIULAMA
@@ -5502,15 +5502,15 @@ MonoBehaviour:
     icon: {fileID: 21300000, guid: 4e8afd7e1703f334da102e5e6372d679, type: 3}
     levelInfos:
     - words:
-      - "AR\u0218I"
+      - SPERIAT
     - words:
-      - ORIBIL
+      - TEMUT
     - words:
       - "VIPER\u0102"
       - "VENINOAS\u0102"
     - words:
-      - UCIDE
-      - "AD\xC2NC"
+      - "FANTOM\u0102"
+      - CEARCEAF
     - words:
       - "DIN\u0162I"
       - "ASCU\u0162I\u0162I"
@@ -5524,14 +5524,15 @@ MonoBehaviour:
       - SPECIMEN
       - GROTESC
     - words:
-      - "Z\xC2N\u0102"
-      - "USCAT\u0102"
+      - "Z\xC2NA"
+      - FRICII
     - words:
       - IPOSTAZE
       - SUPRANATURALE
     - words:
       - "HIEN\u0102"
-      - "DISTRUG\u0102TOARE"
+      - CU
+      - "COL\u0162I"
     - words:
       - "S\u0102RUTUL"
       - FINAL
@@ -5539,14 +5540,14 @@ MonoBehaviour:
       - OCHIUL
       - "\xCENCHIS"
     - words:
-      - TARE
-      - MOALE
+      - CUMPLITUL
+      - VAMPIR
     - words:
       - SCONCS
       - SUB
       - PAT
     - words:
-      - PRINS
+      - "SC\u0102PAT"
       - DIN
       - "LES\u0102"
     - words:
@@ -5554,50 +5555,51 @@ MonoBehaviour:
       - SE
       - PRODUCE
     - words:
-      - "BALENA-ALBASTR\u0102"
+      - BALENA
+      - "ALBASTR\u0102"
     - words:
-      - DECEDATA
-      - "\xCENTRU-UN"
-      - "\u0218AN\u021A"
+      - ZGOMOT
+      - STATIC
     - words:
-      - ROCHIE
-      - DE
-      - "MIREAS\u0102"
+      - BLESTEMUL
+      - MIRESEI
     - words:
-      - INTRATUL
-      - "AD\xC2NC"
+      - "SITUA\u021AIE"
+      - "\u0218OCANT\u0102"
     - words:
-      - "M\u0102TUR\u0102-N"
-      - "LATIN\u0102"
+      - NOAPTEA
+      - "\xCEN"
+      - "P\u0102DURE"
     - words:
       - INSPIR
       - "GROAZ\u0102"
     - words:
-      - RESPIR
-      - MOARTE
+      - "G\xC2F\xC2IT"
+      - GREU
     - words:
-      - "\u0218URUB"
-      - "\xCENFIPT-N"
-      - "G\xC2T"
+      - SCENARIU
+      - "\xCENFRICO\u015E\u0102TOR"
     - words:
-      - "SCENA MOR\u021AII"
-      - "GLUM\u0102 FATAL\u0102"
+      - SCENA
+      - "MOR\u021AII"
     - words:
-      - VINE
-      - IARNA
+      - "GLON\u0162UL"
+      - DE
+      - ARGINT
     - words:
-      - MOARTE
-      - "ARMONIOAS\u0102"
+      - NOAPTEA
+      - STRIGOILOR
     - words:
       - PULSUL
       - STATIC
     - words:
-      - IMNUL
-      - DE
-      - FINAL
+      - HALLOWEEN
+      - NOAPTEA
+      - GROAZEI
     - words:
-      - REFLEXUL
-      - "S\xC2NGEROS"
+      - LOCUL
+      - DE
+      - VECI
     - words:
       - "V\u0102L"
       - DE
@@ -5609,9 +5611,8 @@ MonoBehaviour:
       - "\u0218AH"
       - MAT
     - words:
-      - ACOPERIT
-      - DE
-      - FOSFOR
+      - SUNETE
+      - TERIFIANTE
     - words:
       - "C\u0102RARE"
       - "\xCENTUNECAT\u0102"
@@ -5619,8 +5620,8 @@ MonoBehaviour:
       - "DEVOREAZ\u0102"
       - TOT
     - words:
-      - PICIOR
-      - ROS
+      - CASTELUL
+      - "VR\u0102JITOAREI"
     - words:
       - NEONUL
       - ARS
