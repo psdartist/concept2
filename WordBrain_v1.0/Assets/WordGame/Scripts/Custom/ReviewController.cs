@@ -95,23 +95,24 @@ public class ReviewController : MonoBehaviour
     {
         RefusedReview = true;
         ShowReviewAtLevel += 14;
-        Init();
         GameManager.Instance.ForceSaveGame();
+
+        Init();
     }
 
     public void OnNormal()
     {
-        Application.OpenURL("market://details?id=com.psdartist.aicuvinte/");
-
+        Application.OpenURL("market://details?id=com.psdartist.aicuvinte");
+        
         GaveReview = true;
-        Init();
         GameManager.Instance.ForceSaveGame();
+
+        Init();
     }
 
     // Update is called once per frame
     void Update()
     {
-
         if (Input.GetKeyDown(KeyCode.X))
         {
             TryStartView(true);
