@@ -96,7 +96,6 @@ public class ReviewController : MonoBehaviour
     {
         RefusedReview = true;
         ShowReviewAtLevel += 14;
-        Init();
         GameManager.Instance.ForceSaveGame();
     }
 
@@ -105,14 +104,12 @@ public class ReviewController : MonoBehaviour
         Application.OpenURL("market://details?id=com.psdartist.aicuvinte");
 
         GaveReview = true;
-        Init();
         GameManager.Instance.ForceSaveGame();
     }
 
     // Update is called once per frame
     void Update()
     {
-
         if (Input.GetKeyDown(KeyCode.X))
         {
             TryStartView(true);
