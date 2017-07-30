@@ -609,6 +609,7 @@ public class GameManager : SingletonComponent<GameManager>
 
         jsonObj.Add("showReviewAtLevels", ReviewController.Instance.ShowReviewAtLevel);
 
+        jsonObj.Add("SeenReviewScreen", ReviewController.Instance.SeenReviewScreen);
         jsonObj.Add("gaveReview", ReviewController.Instance.GaveReview);
         jsonObj.Add("refusedReview", ReviewController.Instance.RefusedReview);
         jsonObj.Add("noLike", ReviewController.Instance.NoLike);
@@ -635,6 +636,7 @@ public class GameManager : SingletonComponent<GameManager>
 		    if (ReviewController.Instance.ShowReviewAtLevel == 0)
 		        ReviewController.Instance.ShowReviewAtLevel = 7;
 
+            ReviewController.Instance.SeenReviewScreen = json["SeenReviewScreen"].AsBool;
             ReviewController.Instance.GaveReview = json["gaveReview"].AsBool;
             ReviewController.Instance.RefusedReview = json["refusedReview"].AsBool;
             ReviewController.Instance.NoLike = json["noLike"].AsBool;
