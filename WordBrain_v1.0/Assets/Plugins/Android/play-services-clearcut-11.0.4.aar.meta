@@ -1,5 +1,9 @@
 fileFormatVersion: 2
-guid: e4905428b4fab9346ae553eda3f038b9
+guid: 96af010e228e91b40afef1387ffd131a
+labels:
+- gpsr
+timeCreated: 1501348235
+licenseType: Free
 PluginImporter:
   serializedVersion: 2
   iconMap: {}
