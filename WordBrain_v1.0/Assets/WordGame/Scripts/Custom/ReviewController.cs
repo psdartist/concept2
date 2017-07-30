@@ -33,7 +33,9 @@ public class ReviewController : MonoBehaviour
             }
             else if (SeenReviewScreen == false && _currentCompletedLevelsNumber > 7)
             {
-                TryStartView(true);
+                SeenReviewScreen = true;
+                ShowReviewAtLevel = _currentCompletedLevelsNumber + 1;
+                GameManager.Instance.ForceSaveGame();
             }
         }
     }
