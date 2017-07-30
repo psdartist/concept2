@@ -18,7 +18,8 @@ public class ReviewController : MonoBehaviour
 
     private int _currentCompletedLevelsNumber;
     [SerializeField]
-    public int CurrentCompletedLevelsNumber {
+    public int CurrentCompletedLevelsNumber
+    {
         get { return _currentCompletedLevelsNumber; }
         set
         {
@@ -101,7 +102,7 @@ public class ReviewController : MonoBehaviour
 
     public void OnNormal()
     {
-        Application.OpenURL("market://details?id=com.psdartist.aicuvinte/");
+        Application.OpenURL("market://details?id=com.psdartist.aicuvinte");
 
         GaveReview = true;
         Init();

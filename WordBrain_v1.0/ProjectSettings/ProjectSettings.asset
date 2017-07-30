@@ -144,8 +144,8 @@ PlayerSettings:
     tvOS: com.bilal.wordbrain
   buildNumber:
     iOS: 0
-  AndroidBundleVersionCode: 9
-  AndroidMinSdkVersion: 16
+  AndroidBundleVersionCode: 10
+  AndroidMinSdkVersion: 21
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
   aotOptions: 
