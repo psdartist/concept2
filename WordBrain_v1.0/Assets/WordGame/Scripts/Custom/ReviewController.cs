@@ -10,6 +10,7 @@ public class ReviewController : MonoBehaviour
     public GameObject QuestionPanel;
     public GameObject DecisionPanel;
 
+    public bool SeenReviewScreen;
     public bool GaveReview;
     public bool RefusedReview;
     public bool NoLike;
@@ -29,6 +30,10 @@ public class ReviewController : MonoBehaviour
             if (_currentCompletedLevelsNumber <= 7)
             {
                 ShowReviewAtLevel = 7;
+            }
+            else if (SeenReviewScreen == false && _currentCompletedLevelsNumber > 7)
+            {
+                TryStartView(true);
             }
         }
     }
@@ -57,11 +62,13 @@ public class ReviewController : MonoBehaviour
 
     public void TryStartView(bool force = false)
     {
-        if (GaveReview == false && CurrentCompletedLevelsNumber == ShowReviewAtLevel)
+        if ((GaveReview == false && CurrentCompletedLevelsNumber == ShowReviewAtLevel) || force)
         {
             NoLike = false;
             RefusedReview = false;
-            
+
+            SeenReviewScreen = true;
+
             UiReview.SetActive(true);
         }
     }
